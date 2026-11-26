@@ -37,7 +37,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Inter.Tempo",
+    "title": "Inicio",
     "section": "",
     "text": "Les damos la bienvenida a la Espiral Temporal, un proyecto colectivo basado en la obra escrita por Sergio Sclovich.\nNuestro ícono es una espiral, que simboliza la interconexión que existe entre las personas entre sí y con el resto de la naturaleza. Reivindicamos la historia del amor a partir de una antología de relatos que se unen en una madeja espiralada, hecha de un hilo conductor.\nBuscamos compartir historias, reflexiones y nuevas formas de entender e interpretar las relaciones. Las y los invitamos a ser parte de este viaje artístico leyendo, mirando, escuchando y comentando lo que deseen sobre el proyecto."
   },
@@ -47,6 +47,20 @@
     "title": "De como leer esta obra",
     "section": "",
     "text": "Nuestro ícono es una espiral y representa el tiempo de las historias de esta obra. Esta obra se va desarrollando junto a sus lectores. Comienza en el centro con una antologia de cuentos ya publicada, por eso se muestra en colores. A medida que cada nuevo manuscrito vaya publicandose, se irán coloreando sus títulos en la espiral al início de la página web del proyecto. A través de nuestras redes sociales vas a poder ir siguiendo el desarrollo de cada texto."
+  },
+  {
+    "objectID": "ComoLeer.html#continuidad-de-la-obra",
+    "href": "ComoLeer.html#continuidad-de-la-obra",
+    "title": "De como leer esta obra",
+    "section": "",
+    "text": "Nuestro ícono es una espiral y representa el tiempo de las historias de esta obra. Esta obra se va desarrollando junto a sus lectores. Comienza en el centro con una antologia de cuentos ya publicada, por eso se muestra en colores. A medida que cada nuevo manuscrito vaya publicandose, se irán coloreando sus títulos en la espiral al início de la página web del proyecto. A través de nuestras redes sociales vas a poder ir siguiendo el desarrollo de cada texto."
+  },
+  {
+    "objectID": "ComoLeer.html#referencias",
+    "href": "ComoLeer.html#referencias",
+    "title": "De como leer esta obra",
+    "section": "Referencias",
+    "text": "Referencias\nLa creación de estos cuentos no solo estuvo impulsada por la imaginación, sino también por la investigación bibliográfica. A lo largo de los textos las fuentes de este trabajo se indican mediante números en superíndice que remiten a las referencias correspondientes. Para profundizar en cualquiera de los temas abordados, basta con seguir la numeración.\nA medida que la IA evoluciona, la línea entre la realidad y la ficción puede volverse cada vez más difusa. La combinación de narrativa de ficción con un respaldo en el conocimiento científico nos permite desplegar la imaginación manteniendo un ancla en el mundo real, para así navegar nuestros universos interiores sin perder el rumbo."
   },
   {
     "objectID": "AnAntologia.html",
@@ -187,19 +201,5 @@
     "title": "Sofi’sta",
     "section": "",
     "text": "Sofía es una estafadora profesional. Fue su padre quien le enseñó las artes de la trampa; sin embargo, en su lecho de muerte le confiesa que le hubiese gustado que ella fuera una persona honesta. Tras su fallecimiento queda hundida en la tristeza, pero encuentra consuelo en el sofismo. Decide convertirse en una anti-estafadora usando sus habilidades para ayudar a la gente. No conforme con el alcance de sus acciones, decide infiltrarse en el Ministerio de Ambiente para atacar lo que considera el corazón del problema: la corrupción de las instituciones. Sin embargo, no es tan simple ser honesta en un mundo envenenado por las mentiras. ¿Podrá Sofía sostener sus convicciones?"
-  },
-  {
-    "objectID": "ComoLeer.html#continuidad-de-la-obra",
-    "href": "ComoLeer.html#continuidad-de-la-obra",
-    "title": "De como leer esta obra",
-    "section": "",
-    "text": "Nuestro ícono es una espiral y representa el tiempo de las historias de esta obra. Esta obra se va desarrollando junto a sus lectores. Comienza en el centro con una antologia de cuentos ya publicada, por eso se muestra en colores. A medida que cada nuevo manuscrito vaya publicandose, se irán coloreando sus títulos en la espiral al início de la página web del proyecto. A través de nuestras redes sociales vas a poder ir siguiendo el desarrollo de cada texto."
-  },
-  {
-    "objectID": "ComoLeer.html#referencias",
-    "href": "ComoLeer.html#referencias",
-    "title": "De como leer esta obra",
-    "section": "Referencias",
-    "text": "Referencias\nLa creación de estos cuentos no solo estuvo impulsada por la imaginación, sino también por la investigación bibliográfica. A lo largo de los textos las fuentes de este trabajo se indican mediante números en superíndice que remiten a las referencias correspondientes. Para profundizar en cualquiera de los temas abordados, basta con seguir la numeración.\nA medida que la IA evoluciona, la línea entre la realidad y la ficción puede volverse cada vez más difusa. La combinación de narrativa de ficción con un respaldo en el conocimiento científico nos permite desplegar la imaginación manteniendo un ancla en el mundo real, para así navegar nuestros universos interiores sin perder el rumbo."
   }
 ]

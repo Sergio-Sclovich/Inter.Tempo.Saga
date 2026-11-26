@@ -1,10 +1,6 @@
 ---
-format:
-  html:
-    theme:
-      - webstyle.scss
+title: "Inicio"
 ---
-
 
 Les damos la bienvenida a la Espiral Temporal, un proyecto colectivo basado en la obra escrita por Sergio Sclovich.
 
@@ -14,54 +10,54 @@ Buscamos compartir historias, reflexiones y nuevas formas de entender e interpre
 
 ```{=html}
 <div class="image-wrapper">
-  <img src="images/Full_espiral.png" alt="Main Background" class="main-image">
+  <img src="Images/Full_espiral.png" alt="Main Background" class="main-image">
   
-  <a href="AnAntologia_Sinopsis.qmd" class="overlay-link overlay-1">
-    <img src="images/AnaGramarg.png" alt="Anantologia" class="overlay-image">
+  <a href="sinopsis/AnAntologia_Sinopsis.qmd" class="overlay-link overlay-1">
+    <img src="Images/AnaGramarg.png" alt="Anantologia" class="overlay-image">
   </a>
   
-  <a href="AnAntologia_Sinopsis.qmd" class="overlay-link overlay-2">
-    <img src="images/DanzAna.png" alt="Anatologia" class="overlay-image">
+  <a href="sinopsis/AnAntologia_Sinopsis.qmd" class="overlay-link overlay-2">
+    <img src="Images/DanzAna.png" alt="Anatologia" class="overlay-image">
   </a>
 
-  <a href="AnAntologia_Sinopsis.qmd" class="overlay-link overlay-3">
-    <img src="images/JuAna.png" alt="Anantologia`" class="overlay-image">
+  <a href="sinopsis/AnAntologia_Sinopsis.qmd" class="overlay-link overlay-3">
+    <img src="Images/JuAna.png" alt="Anantologia`" class="overlay-image">
   </a>
   
-  <a href="AnAntologia_Sinopsis.qmd" class="overlay-link overlay-4">
-    <img src="images/AnaCronica.png" alt="Anantologia`" class="overlay-image">
+  <a href="sinopsis/AnAntologia_Sinopsis.qmd" class="overlay-link overlay-4">
+    <img src="Images/AnaCronica.png" alt="Anantologia`" class="overlay-image">
   </a>
   
-  <a href="AnAntologia_Sinopsis.qmd" class="overlay-link overlay-5">
-    <img src="images/DiAna.png" alt="Anantologia`" class="overlay-image">
+  <a href="sinopsis/AnAntologia_Sinopsis.qmd" class="overlay-link overlay-5">
+    <img src="Images/DiAna.png" alt="Anantologia`" class="overlay-image">
   </a>
   
-  <a href="El_sitial_sinopsis.qmd" class="overlay-link overlay-6">
-    <img src="images/ElSitial.png" alt="Anantologia`" class="overlay-image">
+  <a href="sinopsis/El_sitial_sinopsis.qmd" class="overlay-link overlay-6">
+    <img src="Images/ElSitial.png" alt="Anantologia`" class="overlay-image">
   </a>
   
-  <a href="LOBA_sinopsis.qmd" class="overlay-link overlay-7">
-    <img src="images/LOBA.png" alt="Anantologia`" class="overlay-image">
+  <a href="sinopsis/LOBA_sinopsis.qmd" class="overlay-link overlay-7">
+    <img src="Images/LOBA.png" alt="Anantologia`" class="overlay-image">
   </a>
   
-   <a href="Sofista_sinopsis.qmd" class="overlay-link overlay-8">
-    <img src="images/Sofista.png" alt="Anantologia`" class="overlay-image">
+   <a href="sinopsis/Sofista_sinopsis.qmd" class="overlay-link overlay-8">
+    <img src="Images/Sofista.png" alt="Anantologia`" class="overlay-image">
   </a>
   
-   <a href="AnaLogico_sinopsis.qmd" class="overlay-link overlay-9">
-    <img src="images/AnaLogico.png" alt="Anantologia`" class="overlay-image">
+   <a href="sinopsis/AnaLogico_sinopsis.qmd" class="overlay-link overlay-9">
+    <img src="Images/AnaLogico.png" alt="Anantologia`" class="overlay-image">
   </a>
   
-    <a href="Auris_sinopsis.qmd" class="overlay-link overlay-10">
-    <img src="images/Auris.png" alt="Anantologia`" class="overlay-image">
+    <a href="sinopsis/Auris_sinopsis.qmd" class="overlay-link overlay-10">
+    <img src="Images/Auris.png" alt="Anantologia`" class="overlay-image">
   </a>
   
-    <a href="ReEvolucion_sinopsis.qmd" class="overlay-link overlay-11">
-    <img src="images/ReEvolucion.png" alt="Anantologia`" class="overlay-image">
+    <a href="sinopsis/ReEvolucion_sinopsis.qmd" class="overlay-link overlay-11">
+    <img src="Images/ReEvolucion.png" alt="Anantologia`" class="overlay-image">
   </a>
   
-    <a href="DisUtopia_sinopsis.qmd" class="overlay-link overlay-12">
-    <img src="images/DisUtopia.png" alt="Anantologia`" class="overlay-image">
+    <a href="sinopsis/DisUtopia_sinopsis.qmd" class="overlay-link overlay-12">
+    <img src="Images/DisUtopia.png" alt="Anantologia`" class="overlay-image">
   </a>
   
 </div>
