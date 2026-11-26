@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.19">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>AnaCronica – Inter.Tempo</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-24d7b7b3d79b7150eda6bc6b32723e0c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../Images/Logo_espiral.png" alt="" class="navbar-logo light-content">
+    <img src="../Images/Logo_espiral.png" alt="" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Inter.Tempo</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-información-del-proyecto" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Información del proyecto</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-información-del-proyecto">    
+        <li>
+    <a class="dropdown-item" href="../SobreProyecto.html">
+ <span class="dropdown-text">Sobre el proyecto</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../QuienesSomos.html">
+ <span class="dropdown-text">¿Quienes somos?</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../DerechosAutor.html">
+ <span class="dropdown-text">Derechos de autor</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../ComoLeer.html">
+ <span class="dropdown-text">De como leer esta obra</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../apoyo.html">
+ <span class="dropdown-text">¿Cómo podes colaborar con el proyecto?</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-libros" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Libros</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-libros">    
+        <li>
+    <a class="dropdown-item" href="../AnAntologia.html">
+ <span class="dropdown-text">AnAntología</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../sinopsis/El_sitial_sinopsis.html">
+ <span class="dropdown-text">El sitial</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../sinopsis/LOBA_sinopsis.html">
+ <span class="dropdown-text">LOBA</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../sinopsis/Sofista_sinopsis.html">
+ <span class="dropdown-text">Sofi’sta</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../sinopsis/AnaLogico_sinopsis.html">
+ <span class="dropdown-text">AnaLogico</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../sinopsis/Auris_sinopsis.html">
+ <span class="dropdown-text">Auris interregno</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../sinopsis/ReEvolucion_sinopsis.html">
+ <span class="dropdown-text">RƎEvolucion</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../sinopsis/DisUtopia_sinopsis.html">
+ <span class="dropdown-text">DisUtopia</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">AnaCronica</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="derecha">
+<pre><code>Al Sol de mi vida con Amor: el amor es atemporal.
+Esta crónica se sitúa en ningún lugar específico,
+ya que el amor puede surgir en cualquier lado,
+así como también, en cualquier momento;
+sin importar la época, siempre será igual.
+
+-Sergio Sclovich-
+</code></pre>
+</div>
+<p>El sol calentaba con la temperatura justa para no tener demasiado abrigo pero tampoco sofocarse. Todas las plantas estaban verdes de vida y la mayoría, en flor. Juan volvía a su hogar, su refugio, después de un día cansador. Atravesó una zona llena de geranios que florecían entre las rocas de la sierra por donde siempre pasaba, se sentía extenuado tras la labor del día. Los ojos se le cerraban caminando y sólo quería llegar a su guarida y dormir. Entonces, en pleno regreso la vio.</p>
+<p>Una mujer esplendorosa, hipnotizante. Tenía una mirada desafiante y a la vez indefensa que dejaba perplejos a quienes la conocían. Seguramente muchos hombres se habían perdido en cada una de sus curvas, recorriéndolas con sus ojos, siguiéndolas como si fueran péndulos. Juan se sintió atraído al instante por la forma en la que se movía. Parecía una náyade guiada por una fuerza sobrenatural que se desplazaba con una calma mística que era al mismo tiempo relajante y excitante.</p>
+<p>Juan no se dejó intimidar por la belleza. De hecho, pese a su cansancio, no dudó un segundo en seguirla para aprender sobre ella, quién era, a dónde iba, por qué no la había visto antes.</p>
+<p>La siguió apasionadamente durante casi una hora. Ella caminó a la vera de un río, y lo atravesó saltando por unas rocas como si flotara de una a la otra; Juan casi resbaló con el verdín de una de ellas al querer pasar pero pudo conservar el equilibrio. Siguió por una pradera llena de tréboles y Juan fue detrás. La mujer continuó su camino en un pastizal por el que se sumergió bailando entre las hojas y él se raspó los dedos con las cortaderas al seguirla. Ella no parecía ir a ningún lado, solamente paseaba mirando todo a su alrededor, perdida. Finalmente se detuvo a contemplar, para sorpresa de Juan, unos jazmines. Los observó por unos instantes sin hacer un solo movimiento, atenta, como esperando algo. Después inhaló profundamente oliéndolos con fuerza, como tratando de extraerles su esencia con esa inspiración. Tan espontánea como el viento que sacudía el pastizal alrededor de los jazmines, comenzó a bailar. Se movió con unas suaves ondulaciones del abdomen que recalcaban su cintura y la sensual figura que formaba. Dejó flamear sus brazos a los lados como ramas al viento, al mismo tiempo que hacía círculos con la cabeza, creando un tornado azabache con su pelo.</p>
+<p>Juan quedó atónito. Suspiró e imaginó cientos de situaciones en las que le hablaba y la conquistaba. Se agazapó detrás de la gran piedra que lo ocultaba, rotó con su hombro izquierdo apoyando la espalda y resbaló lentamente contra la fría roca perdido en sus pensamientos.</p>
+<p>Súbitamente, se levantó de su escondite y se le acercó confiado. Se plantó frente a ella justo cuando finalizaba un suave giro de su danza, sobre la punta de su pie izquierdo.</p>
+<p>─Es la primera vez que veo una flor más linda que los jazmines, haciendo alarde frente a ellos─ le dijo sin darle tiempo a pensar.</p>
+<p>Ella se sorprendió, e instantáneamente sonrió de manera involuntaria, halagada y avergonzada al mismo tiempo. Bajó el mentón pero mantuvo la mirada en alto. Juan se dejó seducir por aquellos ojos que le parecieron los más tiernos que había visto en su vida. Sin pensarlo, la tomó entre sus brazos y la besó torpemente.</p>
+<p>Se sintió el hombre más valiente del mundo, decidido cual yaguareté a la caza y calmo como un cóndor planeando sobre las montañas. La adrenalina de la pasión por esta mujer corría por su cuerpo. Sin entender cómo ni por qué, repentinamente sentía que la amaba. Finalmente el beso llegó a su momento cúlmine, ese punto que raya entre un máximo de placer y saturación de la sensibilidad de los labios. Juan aflojó sus brazos y ambos se distanciaron lo justo y necesario para mirarse a los ojos. Se sonrieron mutuamente, nerviosos. Y así de mágico, como todo ocurrió, el sueño se desvaneció.</p>
+<p>Juan volvió a donde realmente estaba, como si recién hubiera despertado, después de imaginar ese encuentro con la chica misteriosa. Se encontró acurrucado detrás de la piedra que lo escondía, con la espalda contra la fría losa, el pecho metido detrás de sus rodillas que a su vez las abrazaba con fuerza.</p>
+<p>Se cuestionó si toda esta aventura no era una locura. Seguir a una desconocida, fantasear oculto. ¿Qué estaba haciendo? Se convenció de que no estaba loco, o que si lo estaba era de amor. Escuchó que ella empezó a caminar y la siguió durante diez minutos más buscando refugio entre la vegetación y otras rocas.</p>
+<p>Ella volvió a parar, esta vez en un claro. El sol de la tarde se iba escondiendo y ella se quedó con los ojos cerrados hacia el cielo, seguramente sintiendo la calidez de los últimos rayos de la gran estrella, pensaba Juan. Esta vez se decidió a hablarle, a hacer realidad todo lo que antes había imaginado. Tomó coraje en forma de aire y aprovechó que estaba distraída. Trató de recordar la frase de sus sueños al mismo tiempo que caminaba. Juan estaba loco de amor. Tal fue así que llegó junto a ella y no supo qué decir. Rápidamente trató de relajarse, de soltarse, de ser espontáneo. Dejó salir sus primeras palabras:</p>
+<p>─Que flor más linda que sos, pero no tanto como…─ y hasta ahí llegó. Instantáneamente se dio cuenta de todos los errores que había cometido. ¿Cómo iba a decir que las flores eran más lindas que ella? Y, peor aún, ¿contra qué flores iba a comparar si ya no estaba más frente a los jazmines?</p>
+<p>Desesperado, miró en todas direcciones y a unos metros había un grupo de flores blancas en lo alto de un tallo que brotaba entre las rocas. Aún más rápido que antes pensó cómo continuar la frase y siguió diciendo:</p>
+<p>─…esas florcitas blancas de allá─. Señalando con el índice, dejando su brazo tieso, como un perro de caza apuntando a su presa.</p>
+<p>Durante las décimas de segundo que tardó en terminar de levantar la mano, pensó que había salvado la situación con elegancia. Pero al instante notó que solo había resuelto uno de los problemas, y no tan elegantemente como creía.</p>
+<p>La desesperación lo sobrepasó, las manos le comenzaron a transpirar, sus mejillas se tornaron de un rojo furioso, brillantes como la sangre que sale del corazón por las arterias, ese corazón que estaba acongojado por la vergüenza y rebosante de amor. Salieron balbuceos de su boca, pero ya no tenían sentido, su brazo seguía apuntando a las flores y su mirada se clavó involuntariamente en el escote de esa mujer. Ella se quedó quieta por un instante, sorprendida, asustada y halagada, pero luego actuó de inmediato. Juan continuaba señalando con su índice izquierdo a la pequeña flor. La misteriosa dama tomó la mano con firmeza y suavidad, y la bajó hasta que estuvo entre los dos cuerpos a la altura de sus ombligos. Con el índice derecho levantó la mirada de Juan desde el mentón hasta llevarla frente a sus ojos y se presentó:</p>
+<p>─Hola, soy Ana─.</p>
+<p>Tan simple, romántico, sin ninguna elaboración extraña. Juan se sintió abrumado por la sencillez con la que respondió Ana, ¿cómo no había pensado en eso? Procuró contestar de la misma manera, pero volvió a balbucear. Podía escuchar sus latidos con fuerza, cada pálpito amenazaba con expulsar al corazón del pecho. Una mezcla de ataque de pánico y éxtasis lo inundó y no sabía qué hacer, contó hasta diez para sí mismo a la vez que respiraba profundo. Pero no entendía si había respirado cinco veces o contado hasta ahogarse. Una disimulada tos lo sacó de sus cavilaciones, percibió la suave piel de la mano que lo sostenía y respondió con la misma firmeza. Luego notó su mirada y sin pensarlo devolvió un mar de admiración. Por último sintió su aroma, mezcla de feromonas, transpiración y jazmines.</p>
+<p>No era la costumbre de Ana hablar con extraños, pero sí tenía la facilidad de conectar con otros espontáneamente. Se sintió atraída por este ser vulnerable, que se veía a la legua que estaba nervioso pero que, pese a sus propios demonios, estaba al pie del cañón del amor.</p>
+<p>─Hola, soy Juan─ respondió más tranquilo y siguió hablando ─tu nombre es un claro reflejo de quien sos.</p>
+<p>─¿Por qué lo decís?─ contestó Ana riéndose</p>
+<p>─Porque es hermoso y simple, no necesita de arreglos complicados. Solo tres letras, todo un nombre. Tu belleza es igual, solo de estar oliendo unos jazmines, deslumbrás─.</p>
+<p>─Esperá─ dijo Ana cambiando su tono de dulce a enojado ─¿me estás siguiendo?, ¿cómo sabés lo de oler los jazmines?</p>
+<p>Juan se sintió paralizado, ¿Cómo pudo haber dicho tal cosa? ¿En qué estaba pensando? Asustada, Ana comenzó a alejarse. Juan trató de alcanzarla tomándola del brazo, olvidándose de que para ella, era un completo desconocido. Ana se sobresaltó, emitió un grito de pánico, casi bestial. Juan intentó calmarla, decir unas palabras de contención y seguridad pero antes de poder hablar todo se oscureció.</p>
+<p>Su pómulo ardía, se prendía fuego, se hinchaba. Sintió la forma de unos nudillos en el rostro, duros como rocas, enterrados en la cara. Quedó atónito, ese rugoso puño no parecía provenir de la suave mano de Ana.</p>
+<p>Juan se incorporó hasta quedar sentado. Miró con el ojo que todavía podía abrir y vio a su alrededor, tratando de entender qué había pasado. Primero observó los hermosos ojos de Ana abiertos de par en par. Se estaba cubriendo la boca con sus dos manos, estupefacta. Lo miraba con una expresión de lástima y sorpresa. Hasta que finalmente reaccionó:</p>
+<p>─¡Roberto!─ gritó Ana mirando a su izquierda ─¿Qué le hiciste? ¿Qué haces acá?─.</p>
+<p>Juan siguió la mirada de Ana con su ojo bueno, girando la cabeza hacia la derecha, y se encontró con un hombre que desde el piso se veía como un gigante. Las manos, cerradas en puños eran dos martillos; su torso y brazos eran como mármol esculpido, y el rostro, mostrando los dientes cual perro rabioso, se mostraba lleno de furia y celos.</p>
+<p>Roberto comenzó a avanzar en busca de su oponente, pero Ana reaccionó rápido y se interpuso entre los dos.</p>
+<p>─¿Cómo llegaste acá?, ¿Me estabas siguiendo?, ¿Qué les pasa a los hombres?─ recriminó a Roberto. El gigante bajó la guardia parcialmente, pero sus puños seguían cerrados.</p>
+<p>─Lo vi todo, este idiota te estaba molestando─. Guardó un instante de silencio y retomó el diálogo ofendido: ─Deberías estar agradeciéndome. No sé ni por qué carajo me preocupo─.</p>
+<p>Tal vez fue el tono que tomó Roberto, o su ego dañado; pero Juan abruptamente sintió unas ganas incontenibles de arremeter contra aquel ser, setenta por ciento montaña y treinta por ciento hombre. Se levantó con torpeza, aún sin poder ver bien con ambos ojos. La adrenalina que apareció en su sangre aplacó el dolor en su mejilla. Más que lleno de valor, estaba librado de miedo y con todo ese ímpetu se abalanzó sobre Roberto. Utilizando el largo de sus brazos y el ancho de hombros intentó rodear al gigante para empujarlo, pero apenas logró abrazarlo de la cintura y quedarse patinando en el suelo mientras su adversario se mantenía inmóvil. La enorme mano derecha de Roberto lo tomó de la cabeza y se lo despegó del cuerpo como si fuera un velcro. La mano izquierda se cerró y retrocedió tomando impulso para otro implacable golpe. Juan extendió los brazos como intentando frenarlo, pero se sintió tan absurdo como quien se para en las vías del tren y levanta su mano en alto para detenerlo. Con desesperación intentó soltarse la cabeza del agarre que lo aprisionaba, pero por cada intento sólo conseguía que lo apretase más. Se tomó con fuerza de aquel brazo de hierro y pateó con ambas piernas. La doble patada apenas alcanzó las rodillas de Roberto pero el golpe fue suficiente para desequilibrarlo. Soltó a Juan y dio unos pasos para atrás buscando recuperar el balance.</p>
+<p>Antes de que la pelea continuara, Ana volvió intervenir. Los tomó a ambos de la oreja, apretando con la fuerza de su odio y frustración sumados y gritó en consecuencia:</p>
+<p>─¡¿Qué les pasa?!─ recriminó enojada ─Se están peleando por mí y ni siquiera saben quién soy, uno que apenas conozco que me viene a hablar atrás del otro, me siguen y ahora se pelean. ¡Están locos! Déjenme en paz─ Soltó ambas orejas con un fuerte tirón y se alejó a paso rápido mirando hacia abajo y sin voltear la vista.</p>
+<p>Los machos contrincantes se quedaron quietos donde estaban; si la hembra se iba no había por lo que pelear. Si la seguían para no perderla, la competencia que la alejó volvería a darse. Juan pensó rápido, sintió que la próxima jugada era clave. ¿Qué había querido decir Ana con que eran dos extraños? Lo bueno, pensaba Juan, es que no era su esposo ni su novio y que ambos ocupaban el mismo lugar en el corazón de Ana: ninguno.</p>
+<p>Repentinamente surgió un plan: le diría a Roberto que ya no tenía interés en Ana, que ella tenía razón y que era una locura seguir peleando. De esa acción Juan pensó en dos posibles respuestas, si Roberto se mostraba convencido, y se iba por su lado, entonces esperaría a que se alejara lo suficiente e iría tras Ana. Pero si por el contrario, iba tras ella, los seguiría a ambos y cuando estuviera distraído lo frenaría, como sea que fuere.</p>
+<p>Roberto aún se frotaba la oreja. Evitó mirar fijo a Juan para no mostrar que le dolía, no sólo físicamente. Mantuvo esa actitud los segundos que pudo antes de que fuera una situación aún más incómoda. Pero el primero en hablar fue Juan:</p>
+<p>─Por un lado quiero molerte a trompadas─ dijo mirándolo fijo a los ojos, inclusive a través de lo hinchado y morado ─por el otro te envidio el físico, pero la verdad es que ninguna de las dos cosas tienen sentido. Yo recién la conocí y entiendo, aunque me duela, que querías protegerla. Aunque no parece necesitar mucha ayuda con eso;─ agregó acariciándose la oreja roja ─ sigo mi camino, me parece lo más sensato. Pero la próxima hablá primero antes de pegar, no la hubieras perdido.</p>
+<p>─Mejor así, perejil─ fue lo primero que le salió a Roberto. Pero lo cierto era que aquel gigante, a pesar de su bravuconería, se sintió abrumado por la mirada imperturbable de ese desconocido─ Yo estoy loco por ella, la amo ¿me seguís? y sé que con el tiempo lo va a entender. Mientras tanto, voy a hacer lo que se me cante─ terminó de decir con una mirada amenazante y se fue en la misma dirección que Ana.</p>
+<p>Juan lo dejó irse y actuó rápidamente según lo planeado. Se fue por un atajo que lo llevó más adelante en el camino que habían tomado. Buscó dónde guarecerse de forma que no lo vieran. En su recorrido levantó una gran piedra, la cual llevó en las manos hasta el lugar de la emboscada.</p>
+<p>Desde ahí podía ver a Ana acercarse y a Roberto siguiéndola. Se sintió extasiado, ansioso por completar su plan, se veía como el héroe de una historia donde vencía al monstruo y se quedaba con la doncella. Ya no quedaba ninguna conciencia en Juan. Regido por su obsesión, repasó el plan una vez más: primero esperaría en las sombras a que su contendiente pasara; lo dejaría adelantarse unos metros y sorpresivamente lo detendría usando la piedra que había encontrado, lo correría del camino e iría tras su deseo.</p>
+<p>Entonces pasó su víctima caminando, parecía contento tras haber vencido a otro macho contrincante y tener a su mujer toda para él, según le dictaba su ego. Juan esgrimió el cascote sobre su cabeza y comenzó a caminar hacia su objetivo. A lo lejos vió a Ana. Como de la nada, todo el amor que sentía por esa desconocida, le abrió los ojos ¿Qué estaba haciendo? ¿Iba a herir o matar por alguien que acababa de ver pasar? Se dio cuenta que la atracción hacia Ana se había transformado en una obsesión y se había tornado peligrosa. Si bien la conocía desde hacía unos instantes, lo había cautivado como si supiera todo de ella desde el principio de los tiempos hasta el final. Concluyó que era un amor crónico, y que eso tenía que convertirlo en una mejor persona. Había gente que podría estar mirándolo, entonces para no despertar sospechas, apoyó suavemente la roca en el piso. Suspiró divisando a Ana alejarse en el horizonte, dejando ir con la exhalación todo su amor propio, quedando solamente lo que sentía verdaderamente por ella y liberándose, finalmente, de su obsesión. Mientras tanto, la figura de Ana se perdía sola en la lontananza a un paso acelerado, todavía tratando de escapar de lo vivido. Detrás, la silueta de Roberto se empezaba a hacer cada vez más chica. A Juan le resultó graciosa la idea de una montaña empequeñeciéndose, y se sintió aliviado y acongojado al mismo tiempo por su decisión de retirarse para ver volar a Ana.</p>
+<p>¿Y si el tarado ese la molesta? pensó, enojado. Pero casi como sincronizado, al instante siguiente escuchó un cachetazo a lo lejos con una onda expansiva tal que sacó a Juan de su duda. Cierto, recordó que ella sabe cuidarse sola, se dijo a sí mismo mientras se acariciaba la oreja que aún le ardía.</p>
+<p>Juan retomó su rutina. Se levantaba temprano, se daba un baño y se iba a buscar su sustento. Lo hacía yendo a través del camino de los geranios. Cerca del mediodía se sentaba en lo alto de una colina a almorzar, desde donde podía ver el horizonte, imponente y solitario. Después bajaba a finalizar su jornada, generalmente extenuante, rara vez holgada pero siempre satisfactoria. Luego volvía por el mismo camino, aquel en el que había visto a Ana por primera y única vez.</p>
+<p>Todas las tardes Juan renovaba la esperanza de volver a encontrarla. Al principio esperaba tener la oportunidad de disculparse y anhelaba que aquella mole no la hubiera conquistado, como si ella fuera un reino. Pero a medida que pasaba el tiempo, la ansiedad disminuía. Sin embargo, esa chispa que surgió cuando la vio por primera vez, se mantuvo igual. Muy en su interior temía no volver a verla y que ese amor crónico lo volviera una persona melancólica.</p>
+<p>Juan seguía sus quehaceres al pie de la letra. Lo único que cambiaba era que cada tarde le acongojaba más y más no saber de ella. Una mañana se despertó sin fuerzas para levantarse, o más bien aterrado de que comenzara el día, que llegara un nuevo atardecer y la angustia fuera tal que no pudiera manejarla. Pensó en Ana, comenzó a respirar aceleradamente y sintió una mezcla de ataque de pánico y éxtasis. Esa perfectamente lógica contradicción de emociones le recordó por qué la había dejado ir y, como por arte de magia, la presión en el pecho desapareció. Se levantó con ánimo y retomó sus hábitos excepto que, por esta vez, no quiso recordar a Ana.</p>
+<p>Pasaron dos meses y su amada no había vuelto a pasar. Aburrido del mismo trayecto y habiendo transcurrido un día calmo, decidió tomar un camino distinto de vuelta a su casa. Esta vez no fue por donde los geranios florecían, como siempre, sino que tomó por la vera del río que, si bien era más largo, tenía su encanto. Entonces, por segunda vez en su vida, la vio. Estaba esplendorosa como la recordaba o incluso más. El mar de emociones que vivió el día que la conoció resurgió, pero esta vez se encontró con un capitán a bordo del barco del amor un poco más sabio. Ana descansaba en la otra orilla del río, contemplando unos juncos que danzaban con el viento. Juan tuvo un primer impulso de desesperación. Como un motín inesperado, su ansiedad quiso tomar la capitanía de la romántica metáfora navegante y gritó su nombre: ¡Ana!, pero el caudaloso río gritó más fuerte que él y lo hizo callarse la boca. Recordó su sensación al dejarla ir la última vez, escuchó al río nuevamente y decidió seguir esperando. Se fue en silencio siguiendo la correntada desde la otra orilla y nunca más tomó aquel camino. Sin embargo, su anhelo de reencontrarse con ella y entablar una relación sana siguió en su corazón, como las rocas en el fondo de aquel río que, por más de que la corriente las empujaba con fuerza, seguían apoyadas y se las podía distinguir a través del agua transparente.</p>
+<p>A la noche se acostó tranquilo, al menos en apariencia. Pero la mañana siguiente lo recibió angustiado nuevamente, entendía los motivos de sus decisiones pero sus sentimientos no daban espacio a la racionalidad. Requirió de varios días más, charlas con sus amigos de mayor confianza y hasta alguna intoxicación que apagara su cabeza un rato para poder volver a la rutina. Esta vez se afianzó a su organigrama más que nunca. Lo ajustó como un reloj suizo, repitió cada actividad con suma precisión; y de esa forma se olvidó del paso del tiempo, sólo notaba cada día, cada acción.</p>
+<p>La primera mañana del cuarto mes, Juan salió de su hogar y emprendió el hacer cotidiano. Se bañó, preparó un nutritivo desayuno y lo comió mientras organizaba su día en la cabeza, a veces hasta dibujaba en el aire con los dedos, como si escribiera notas invisibles. Salió de su casa y ,por primera vez en mucho tiempo, el olor de los jazmines inundó el aire nuevamente e hizo que Juan caminara distraído por el recuerdo de Ana. Sus pensamientos estaban tratando de imponerse sobre la memoria de su amada pero ésta era avasallante, igual que el olor de las blancas flores. Sin mirar por donde iba, de repente, chocó. Al principio no entendió lo que pasaba, después se dio cuenta que había colisionado con otra persona. La miró y entendió que era una mujer. Sin tratar de reconocerla pensó, ¿cómo puede ser que la gente ande sin mirar, avanzando por la vida como si nadie más existiera? Su cara era de desaprobación y desprecio pero al prestar atención, cambió su expresión radicalmente. Terminando de juntar sus cosas del piso, Ana, levantó la mirada.</p>
+<p>─¿Juan?─ preguntó entusiasmada ─,¡qué sorpresa!─.</p>
+<p>Juan se quedó perplejo unos instantes. Contestó rápido sin detenerse en qué iba a decir. Estaba demasiado emocionado y sorprendido para tales elucubraciones.</p>
+<p>─Qué linda sorpresa, hacía rato que tenía ganas de volver a encontrarte. Quería decirte que lamento mucho cómo me comporté aquella vez, cuando nos conocimos. Es que… instantáneamente me enamoré al verte. Sé que suena a locura, tal vez lo es, pero no me asusta. Se podría decir que literalmente me volví loco de amor. Espero no haber arruinado las cosas con Roberto─.</p>
+<p>─¡No, no existía nada entre Roberto y yo!─ respondió ansiosa y apresurada.</p>
+<p>─Ah, entonces ¿los dos interferimos con tu verdadera pareja? Alguien como vos debe tener un gran amor─, afirmó tratando de sacar información.</p>
+<p>─No tengo pareja─ respondió con seguridad.</p>
+<p>El corazón de Juan estalló de alegría, el navío del amor volvió a la mar inmediatamente, como llevado por el mismísimo Neptuno.</p>
+<p>─Te voy a confesar entonces que en ese momento sentí que estaba dispuesto a hacer lo que fuese para hablar con vos. Pero después de lo que pasó, preferí esperar y mantener la ilusión de que algún día te iba a cruzar de nuevo.</p>
+<p>Los ojos de Ana se pusieron vidriosos, conteniendo un llanto ahogado. A Juan le pareció que era tristeza, pero no de ese momento, sino que provenía de mucho tiempo atrás.</p>
+<p>─Toda mi vida cargué con esta maldición ─dijo Ana con la voz quebrada─ Mis amigas piensan que soy afortunada por mi belleza, que puedo conquistar a cualquier hombre que quiera, pero no es así. Sólo atrae hombres insanos o peor aún: los enfermo con esta maldición ─respiró lo más profundo que pudo y siguió hablando con más calma, después de una suave y liberadora exhalación─. Todo el mundo dice que las personas se sienten atraídas hacia mí y que tendría que estar feliz. En realidad es que todos los hombres que me cortejaron, siempre lo hicieron desde un lugar posesivo. Aquellos que alguna vez noté que me miraron con deseo y parecían tener un corazón más respetuoso, nunca me hablaron o escaparon cuando yo me acercaba. Ese día que te conocí fue todo diferente, apareciste como el primero que me llamó la atención y vino con un halago atento; aunque no el más elocuente.</p>
+<p>Ana se rió con una gran sonrisa, haciendo fuerza con los labios para atrapar la carcajada que hubiera querido liberar y se le escapó en un fuerte resoplido por la nariz.</p>
+<p>Juan sonrió también y le devolvió una mirada dulce con algunos tonos de vergüenza. Ana continuó hablando:</p>
+<p>─Sos el primero que no me acosa, y si bien podría pensar que no te importé, me quedé con la misma sensación de querer volverte a encontrar. Me siento como si causara una enfermedad a los hombres y vos estuvieras inmunizado. Aún sos un desconocido y sin embargo acá estoy, contándote la historia de mi vida. Tal vez no sólo tenés la inmunidad sino el antídoto que necesito.</p>
+<p>Juan se imaginó ante un importante médico, sentado con los codos apoyados en su escritorio, las palmas enfrentadas, con las yemas de los dedos sosteniéndose entre sí, mirando preocupadamente: ─Usted sufre de Ana crónica, y es irreversible─. Tras escuchar en su mente esas palabras sintió por primera vez estar contento de tener una enfermedad incurable de la cual no quería deshacerse. Pensó en decirle que no estaba inmunizado sino también enfermo, que en un mundo de locos, sus locuras resultaban compatibles, pero. ¿qué diferencia hacía la interpretación?. Sabía que estaban enamorados.</p>
+<p>Volvió a la realidad, calmo, seguro, osado y dispuesto a correr el riesgo de amar.</p>
+<p>─¿Vamos?─ preguntó ofreciéndole su brazo, invitándola a enganchar codo con codo. Ana aceptó; caminaron juntos hacia el atardecer y su amor, que los afectaba crónica y agudamente, los acompañó mientras sus figuras se perdieron en el horizonte.</p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/sergio-sclovich\.github\.io\/AnAntologia_HTML\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

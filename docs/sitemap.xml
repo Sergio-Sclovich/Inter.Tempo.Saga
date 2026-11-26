@@ -1,27 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/SobreProyecto.html</loc>
+    <lastmod>2026-11-25T09:17:39.103Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/sinopsis/ReEvolucion_sinopsis.html</loc>
+    <lastmod>2026-11-25T09:23:12.894Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/sinopsis/El_sitial_sinopsis.html</loc>
+    <lastmod>2026-11-22T09:51:21.609Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/sinopsis/Auris_sinopsis.html</loc>
+    <lastmod>2026-11-22T09:30:38.755Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/sinopsis/AnaLogico_sinopsis.html</loc>
+    <lastmod>2026-02-06T09:37:44.988Z</lastmod>
+  </url>
+  <url>
     <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/index.html</loc>
-    <lastmod>2026-11-19T10:06:34.025Z</lastmod>
+    <lastmod>2026-11-25T09:07:30.217Z</lastmod>
   </url>
   <url>
-    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/capitulos/04-AnaCronica.html</loc>
-    <lastmod>2026-07-30T10:17:23.677Z</lastmod>
+    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/ComoLeer.html</loc>
+    <lastmod>2026-11-26T08:48:52.433Z</lastmod>
   </url>
   <url>
-    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/capitulos/02-DanzAna.html</loc>
-    <lastmod>2026-07-30T10:17:23.677Z</lastmod>
+    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/AnAntologia.html</loc>
+    <lastmod>2026-11-25T09:20:21.769Z</lastmod>
   </url>
   <url>
-    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/capitulos/01-AnaGramarg.html</loc>
-    <lastmod>2026-10-23T17:29:02.641Z</lastmod>
+    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/anantologia/05-DiAna.html</loc>
+    <lastmod>2026-07-30T10:17:23.687Z</lastmod>
   </url>
   <url>
-    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/capitulos/03-JuAna.html</loc>
+    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/anantologia/03-JuAna.html</loc>
     <lastmod>2026-11-19T09:15:57.364Z</lastmod>
   </url>
   <url>
-    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/capitulos/05-DiAna.html</loc>
-    <lastmod>2026-07-30T10:17:23.687Z</lastmod>
+    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/anantologia/01-AnaGramarg.html</loc>
+    <lastmod>2026-10-23T17:29:02.641Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/anantologia/02-DanzAna.html</loc>
+    <lastmod>2026-07-30T10:17:23.677Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/anantologia/04-AnaCronica.html</loc>
+    <lastmod>2026-07-30T10:17:23.677Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/anantologia/Prologo.html</loc>
+    <lastmod>2026-11-25T08:33:08.596Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/apoyo.html</loc>
+    <lastmod>2026-11-25T08:54:56.458Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/DerechosAutor.html</loc>
+    <lastmod>2026-11-25T09:04:30.146Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/QuienesSomos.html</loc>
+    <lastmod>2026-11-26T08:34:31.074Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/sinopsis/AnAntologia_Sinopsis.html</loc>
+    <lastmod>2026-11-25T08:47:40.307Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/sinopsis/DisUtopia_sinopsis.html</loc>
+    <lastmod>2026-02-06T09:58:55.483Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/sinopsis/LOBA_sinopsis.html</loc>
+    <lastmod>2026-02-06T09:24:59.787Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sergio-sclovich.github.io/AnAntologia_HTML/sinopsis/Sofista_sinopsis.html</loc>
+    <lastmod>2026-11-25T09:20:50.455Z</lastmod>
   </url>
 </urlset>

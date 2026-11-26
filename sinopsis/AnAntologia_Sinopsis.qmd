@@ -1,0 +1,19 @@
+---
+title: "AnAntología"
+---
+
+AnAntología es una colección de historias de amor, donde siempre Ana es la protagonista. Siendo en apariencia escenarios y relatos distintos, en realidad, cada cuento,  marca el comienzo de diversas aventuras que se van a ir entrelazando en una espiral. De esta manera, no tienen una lógica lineal, sino que son parte de una estructura más grande y compleja, así como más rica y entretenida; como la vida. Por eso, el prefijo negativo "an" nos indica que no es una antología. Esta aparente contradicción toma sentido en el contexto espiralado y refleja el sentimiento de confusión que propone el amor, que se escurre entre las páginas de la obra. Entre el pasado, el futuro e incluso fuera del tiempo, las historias entrelazadas nos recuerdan que la esencia del misterio del amor es pura y única.
+
+AnAntología está compuesto de cinco cuentos:
+
+- AnaGramarg
+
+- DanzAna
+
+- JuAna
+
+- AnaCrónica
+
+- DiAna
+
+Te invitamos a leer [Anatología](../AnAntologia.qmd)

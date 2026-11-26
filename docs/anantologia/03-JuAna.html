@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.19">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>JuAna – Inter.Tempo</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-24d7b7b3d79b7150eda6bc6b32723e0c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../Images/Logo_espiral.png" alt="" class="navbar-logo light-content">
+    <img src="../Images/Logo_espiral.png" alt="" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Inter.Tempo</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-información-del-proyecto" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Información del proyecto</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-información-del-proyecto">    
+        <li>
+    <a class="dropdown-item" href="../SobreProyecto.html">
+ <span class="dropdown-text">Sobre el proyecto</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../QuienesSomos.html">
+ <span class="dropdown-text">¿Quienes somos?</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../DerechosAutor.html">
+ <span class="dropdown-text">Derechos de autor</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../ComoLeer.html">
+ <span class="dropdown-text">De como leer esta obra</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../apoyo.html">
+ <span class="dropdown-text">¿Cómo podes colaborar con el proyecto?</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-libros" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Libros</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-libros">    
+        <li>
+    <a class="dropdown-item" href="../AnAntologia.html">
+ <span class="dropdown-text">AnAntología</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../sinopsis/El_sitial_sinopsis.html">
+ <span class="dropdown-text">El sitial</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../sinopsis/LOBA_sinopsis.html">
+ <span class="dropdown-text">LOBA</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../sinopsis/Sofista_sinopsis.html">
+ <span class="dropdown-text">Sofi’sta</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../sinopsis/AnaLogico_sinopsis.html">
+ <span class="dropdown-text">AnaLogico</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../sinopsis/Auris_sinopsis.html">
+ <span class="dropdown-text">Auris interregno</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../sinopsis/ReEvolucion_sinopsis.html">
+ <span class="dropdown-text">RƎEvolucion</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../sinopsis/DisUtopia_sinopsis.html">
+ <span class="dropdown-text">DisUtopia</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">JuAna</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="derecha">
+<pre><code>A mi hada de las letras,
+que con pasión y entusiasmo
+me acompaña en mis aventuras literarias
+
+-Sergio Sclovich-</code></pre>
+</div>
+<p>Informe número 1614, 3/3/44: cambio de la órbita de Venus por Juan Astrónomo.</p>
+<p>“La mañana del primero de febrero de 1944 detecté una anomalía en la órbita de Venus. Por extraño que parezca, lo vi fuera de su órbita esperada observándose de mayor tamaño conforme pasa el tiempo, de modo que se está acercando a nuestro planeta”.</p>
+<p>─Tengo que apurarme a publicar esto─ dijo Juan pensando en voz alta ─es mi oportunidad. Abuelo─ pensó mirando al cielo─ voy a poner tu nombre en la historia como siempre soñaste.</p>
+<p>Juan siguió pensando en voz alta ─finalmente le daré un sentido trascendente a esa negligencia─ dijo concluyendo su mensaje a las estrellas. Resulta que Vladimir Schwartzman, el papá de Juan, había llegado al puerto de Buenos Aires en 1914 desde Rusia con su esposa e hijo. La Aduana Porteña había comenzado la mudanza a un nuevo edificio en 1911 y aún continuaba, y no pararía hasta 1915 <span class="citation" data-cites="aduana">[@aduana]</span>. Entre el desorden, el bullicio de cientos de inmigrantes arribando y las diferencias idiomáticas, los trabajadores en la recepción de la aduana confundieron el apellido de Vladimir con su profesión: astrónomo. Fue así como su verdadera identidad fue borrada y reemplazada por otra.</p>
+<p>El tres de marzo de 1944 Ana estaba en su oficina. Tomó el tubo de baquelita negra del teléfono y sintió el frío plástico en su oreja. Ese extraño material creado hacía poco más de un cuarto de siglo se difundía más y más, como gota de tinta en agua, por el mundo.</p>
+<p>Sonó el teléfono en el amplio edificio al otro lado de la línea, dejando un eco que se perdía en el silencio.</p>
+<p>”Uffff, ¿ahora quién llama? Tengo que concentrarme en el trabajo” pensó Juan frustrado atendiendo el teléfono:</p>
+<p>─Asociación Argentina de Amigos de la Astronomía ¿quién es?</p>
+<p>─Soy Ana Periódica, periodista del diario La Vanguardia <span class="citation" data-cites="vicente2026resena buonuome2018casa">[@vicente2026resena; @buonuome2018casa]</span>. Me ha llegado el rumor proveniente de fuentes confidenciales, de que eventos inesperados muy importantes y de características astronómicas, están ocurriendo y entiendo que usted es el especialista en el tema. Quería saber si podría entrevistarlo.</p>
+<p>Por la cabeza de Juan pasó una vez más la idea de llevar el nombre de su padre al conocimiento público y respondió:</p>
+<p>─Hola, mucho gusto, sí, sería un honor y es también de suma importancia informar a la comunidad.</p>
+<p>─Perfecto, ¿le parece si paso por el observatorio a las 16 horas?</p>
+<p>─Por favor no me malinterprete pero si quiere, como parte de la entrevista, poder observar el fenómeno que descubrí, tendrá que ser en la noche.─Juan sabía que la propuesta podía ser considerada inadecuada, por eso aclaró ─Le doy mi palabra de caballero de que estará en un lugar seguro.</p>
+<p>Ana dudó un instante. No era apropiado estar a altas horas con un desconocido, pero su curiosidad periodística era más fuerte.</p>
+<p>─Muy bien ahí estaré y le tomo la palabra.</p>
+<p>─Por favor, no tiene de qué preocuparse. La espero a las 19 hs para empezar la entrevista y cuando el sol se esconda podremos mirar con el telescopio.</p>
+<p>─Hecho, lo veo por la tarde. Hasta Luego.</p>
+<p>Ana se dirigió a su superior, Braulio Gómez, para pedir que algún caballero la acompañara a hacer la nota que había conseguido. No porque no supiera defenderse, sino que le parecía más decoroso no estar a solas de noche con un hombre. Sin embargo, Braulio argumentó ─¿Qué te va a hacer ese sabelotodo?, seguro que no se encuentra el pito ni con el telescopio─ Y largó una carcajada que fue secundada por todos los presentes. A Ana le parecía una falta de respeto siendo ella una dama. Ya había aprendido que discutir con su jefe era una pérdida de tiempo, pero no quiso dejar pasar la oportunidad de dejarlo en evidencia, así que le contestó:</p>
+<p>─Parece que usted conoce muy bien las partes íntimas del astrónomo─. Todos en la oficina dejaron de reírse para pasar a un incómodo silencio que duró hasta que Ana levantó su mirada triunfante.</p>
+<p>─Si no fueras la nieta de mi amigo…─ Farfulló Braulio dejando la oración en suspenso ─. No tengo gente, todos están ocupados, si querés la nota vas a tener que ir sola─. A Ana no le molestó la respuesta, de todas maneras, en su fuero íntimo no quería compañía.</p>
+<p>Aún faltaban un par de horas para el encuentro con el Sr.&nbsp;Astrónomo. Como todavía seguía enojada por la situación con su jefe, decidió buscar a su amiga Helga para tomarse un café y desahogarse.</p>
+<p>En aquel entonces el diario tenía sus oficinas en Avenida Rivadavia, entre Pasco y Rincón, y en la esquina se encontraba el famoso Café de los Angelitos, donde Ana y muchos otros de los trabajadores del diario y militantes del partido socialista, solían ir. Helga vivía a la vuelta, así que fue cuestión de minutos hasta que ambas estuvieron charlando en una mesa:</p>
+<p>─Gracias por escucharme, Helga. No aguanto más a Braulio.</p>
+<p>Helga sonrió señalándola con el índice.</p>
+<p>─Vos solita quisiste ir a trabajar y no conseguirte un marido como hice yo. Estarías mucho mejor.</p>
+<p>─Nunca, no necesito un hombre para sentirme realizada.</p>
+<p>─Bueno, no te ofendas. Al final trato de ayudarte y me hacés sentir mal.</p>
+<p>─Perdón, pero estoy contenta con mi elección y para charlar te tengo a vos, ¿acaso querés que te proponga matrimonio?─ Ana cerró la frase con una sonrisa para aliviar sus comentarios.</p>
+<p>─No, por favor. Con Jorgito tengo suficiente─ completó Helga con humor.</p>
+<p>Ambas soltaron una carcajada y siguieron su charla relajadamente por un par de horas más.</p>
+<p>─Bueno Ani, querida. Te dejo que tengo que ir a preparar la cena─ dijo Helga, cerrando el encuentro─ Por favor vení a verme pronto así sé que estás bien después de la entrevista de hoy.</p>
+<p>─No te preocupes, voy y te cuento todo. Gracias por escucharme.</p>
+<p>Eran unas cuarenta cuadras al observatorio y a Ana le venía bien la caminata para despejarse. Tomó la avenida Rivadavia hasta la calle Billinghurst por la que fue para llegar a la Av. Diaz Velez que la llevaba directo a su destino.</p>
+<p>En el centro geográfico de la ciudad de Buenos Aires se encontraba el Parque Centenario. Había comenzado a funcionar 35 años antes de que Ana llegara a las puertas del nuevo edificio, pronto a inaugurar, de la Asociación Argentina de Amigos de la Astronomía <span class="citation" data-cites="aaaa2026historia">[@aaaa2026historia]</span>. El observatorio de la asociación estaba a tan sólo unos cientos de metros del sitio de construcción del Museo Nacional de Historia Natural que, aún en escombros, esperaba debutar como el Instituto Nacional de Investigación de las Ciencias Naturales y Museo de Ciencias Naturales Bernardino Rivadavia en los próximos años.</p>
+<p>Las horas a Juan se le habían pasado como una estrella fugaz y a las 19:05 clavadas sonó el timbre del observatorio. Ana solía tener todo calculado. Si hubiera tocado el timbre en punto, habría parecido muy obsesiva; si lo hubiese hecho antes, parecería ansiosa; muy tarde quedaba poco profesional e irrespetuoso. Sólo cinco minutos daba el desinterés suficiente como para no sentirse a expensas del entrevistado.</p>
+<p>Se escucharon unos pasos acercándose. Cada una de las retumbantes pisadas se perdían en un vacío infinito dando una sensación de que, tras las puertas del observatorio estaba el universo entero. La hoja de la puerta, a la derecha de Ana, se abrió rechinando unos diez centímetros y la parte superior del rostro de Juan asomó por la rendija. Miró a Ana precavido y abrió el resto de la puerta para dejarla pasar.</p>
+<p>─Buenas tardes, soy Ana Periódica. ─ Se presentó sin avanzar.</p>
+<p>─Buenas tardes, bienvenida. Pase por favor. ─ invitó Juan abriendo camino con su mano.</p>
+<p>Ana entró erguida, con aires de seguridad y confianza. En la mano derecha portaba una pequeña cartera de cuero con apliques de metal y en la izquierda llevaba anotador y lápiz. La obscuridad del ambiente le daba un aire tenebroso, aunque algunas hebras de las últimas luces del día entraban por las pequeñas ventanas. Ana caminó casi sin ver, en parte por la poca luz y en parte porque en su cabeza estudiaba las preguntas que le iba a hacer a su entrevistado. Salió de sus cavilaciones con el sórdido rechinar de una silla; se la ofrecía Juan con un gesto, para que se sentara. Ella se acomodó, alerta a cualquier movimiento sospechoso de aquel desconocido y esperó apretando con fuerza la manija de su bolso. Para sorpresa de Ana, Juan prendió una lámpara y muy amablemente la acercó para que la periodista pudiera ver. Con suma delicadeza acomodó unas tazas.</p>
+<p>─¿Gusta un poco de té?.</p>
+<p>─Si, por favor─ respondió Ana, un poco más relajada.</p>
+<p>Luego de servir, Juan tomó asiento frente a ella y la miró fijo, queriendo dar la impresión de estar listo para responder a todas las preguntas. Pero al encontrarse con la mirada de su interlocutora quedó pasmado. “Que ojos más maravillosos, profundos como los misterios de la esfera celeste” Pensó Juan.</p>
+<p>Al observarse fijamente sintieron que algo estaba bien, o mejor dicho, que algo se arreglaba. Como si alguna energía en el universo no estuviera fluyendo correctamente y al mirarse, se comenzara a enmendar. Pero, al serles imposible aceptar la falta de lógica de su sensación, o mejor dicho de su atracción, la dejaron pasar con vergüenza. La entrevista comenzó con un cambio de postura de Ana, disponiéndose a tomar nota y con Juan aclarándose la garganta.</p>
+<p>─¿Cuál es el fenómeno que nos amenaza?─ Interrogó la periodista.</p>
+<p>─Los resultados de mis investigaciones muestran un cambio en la órbita del planeta Venus. Por extraño que parezca, mis cálculos muestran que Venus se está acercando peligrosamente hacia nuestro planeta.</p>
+<p>─¿Cómo es eso? No lo entiendo</p>
+<p>Juan se detuvo un momento a pensar antes de responder ─Imagínese una boleadora siendo girada por usted. Si la suelta, con la fuerza que tiene por el giro, ésta sale disparada en una diagonal. Ahora imagínese a Venus girando alrededor del sol como la boleadora pero que se “suelta” y sale disparado hacia la órbita de la Tierra. Aunque más que soltarse pareciera como si algo lo atrajese, como si la bola de la boleadora fuera de hierro y apareciera un imán muy poderoso. Podría terminar en una colisión planetaria.</p>
+<p>─¿Y cuáles serían las consecuencias de esta colisión?</p>
+<p>─Sería catastrófico. El tamaño de Venus es casi el mismo que el de la Tierra. imagínese como si se chocara consigo misma. Provocaría el fin de la vida e incluso del planeta mismo─</p>
+<p>─¿Está usted cien por ciento seguro de su descubrimiento y de todos sus cálculos?</p>
+<p>Mientras Ana hacía esta pregunta, le temblaban las piernas, pero extrañamente el miedo se esfumaba al escuchar las respuestas de su entrevistado.</p>
+<p>─Al principio pensé que era un error, entiendo lo descabellado de mi afirmación, revisé las cuentas veinte veces antes de consultar con mis colegas de mayor confianza y todos coincidimos en que los resultados son correctos. Al dar aviso al resto de la comunidad de astrónomos, las predicciones se fueron confirmando. Lamentablemente es un hecho atroz pero real.</p>
+<p>─¿Pero, no tenemos ninguna opción, acaso es el fin y nada más?, ¿están al tanto las autoridades nacionales?</p>
+<p>Juan quedó en silencio, Ana notó miedo en su mirada pero aguardó paciente la respuesta. Juan tomó aire y comenzó a hablar ─Desde la toma del poder del Grupo de Oficiales Unidos y a través del presidente, Edelmiro Farrell <span class="citation" data-cites="messina2026">[@messina2026]</span>, las fuerzas de seguridad mostraron acciones y actitudes terroristas hacia las Universidades Nacionales. Si bien el mensaje está corriendo por la comunidad internacional de astrónomos, temo por mi vida en este país. De todos modos, no hay mucho que se pueda hacer a menos que construyan máquinas similares a las que Julio Verne describió en su libro “De la Tierra a la Luna”, como el cañón Columbiad capaz de lanzar un proyectil a la Luna.─ Terminó la frase apretando los labios y tragando saliva.</p>
+<p>Ana se percató de estos gestos e involuntariamente lo imitó. No podía creer lo que escuchaba pero juntó coraje y continuó la entrevista por un largo rato hasta que Juan, al ver la hora, tomó las riendas.</p>
+<p>─Ya es hora de subir, este es el mejor momento para observar a Venus. Puedo mostrarle el telescopio con el que hice el descubrimiento.</p>
+<p>─Sería un placer, aunque me cuesta salir del shock.</p>
+<p>Juan ofreció su mano con la palma expuesta como pidiendo permiso para tomar la de Ana. La periodista aceptó. Con suavidad y firmeza la guió por los oscuros recovecos del observatorio hasta llegar al telescopio principal. Mientras caminaban, ella se dejaba llevar, no sabía por qué pero confiaba en aquel extraño, su corazón le decía que estaba bien estar con él, se sentía cómoda, segura, contenida y llamativamente feliz, inclusive luego de haber escuchado la terrible noticia.</p>
+<p>El interior de la cúpula que contenía al telescopio era majestuosa. En el centro de la sala se elevaba una plataforma octogonal terminada en el más fino pino blanco, a la cual se accedía por dos escaleras laterales. En el medio de este escenario había una mesa, octogonal también, que sostenía al gran telescopio Gautier. Juan había ubicado a un costado un pequeño escritorio con su cuaderno de notas, lápices y otros artículos de librería; y en un rincón el infaltable telescopio de madera que le había regalado su abuelo. Nunca se sentaba a observar sin la compañía e inspiración de aquel catalejo estelar, invaluable para él.</p>
+<p>Juan le indicó a su invitada que aguardara mientras ajustaba el equipo principal, ella se posó sobre el escritorio y el astrónomo comenzó los preparativos. Se acercó al telescopio de metal pintado de rojo para llevar su ojo al ocular dorado. Los primeros segundos pasaron y Juan seguía concentrado en su tarea. Comenzaron a correr los minutos y Ana se impacientó:</p>
+<p>─¿Hay algún problema?─ preguntó ansiosa.</p>
+<p>Juan salió de su trance y respondió con tono confundido:</p>
+<p>─Algo raro está pasando, parece que la trayectoria cambió, como si volviera a su lugar original. Por favor, venga más tarde que tengo que ver qué está pasando.</p>
+<p>Sin titubear Ana respondió:</p>
+<p>─Mi trabajo es informar, yo de acá no me muevo.</p>
+<p>Juan le dirigió una mirada preocupada pero, al volver a encontrar sus ojos color almendra, sintió una paz que le borró todo miedo.</p>
+<p>─Está bien, quédese, pero por favor guarde silencio mientras tanto─ respondió nervioso.</p>
+<p>Ana asintió con un gesto como si cerrase sus labios con un cierre. Juan tomó su cuaderno de notas y empezó a revisarlo, miraba una y otra vez el ocular y el cuaderno ajustando diferentes perillas y haciendo anotaciones de tanto en tanto.</p>
+<p>─Disculpe mis modales─ dijo Juan unos instantes más tarde ─agradezco su compañía─ dejó una pausa y preguntó ─¿cómo es que usted se enteró de mi descubrimiento?</p>
+<p>Ana sonrió orgullosa y contestó ─me asignaron seguir la historia de la construcción del nuevo observatorio, hacía ya un tiempo que venía merodeando debo confesar. Me sorprendió que hace un par de días llegaron varias cartas internacionales con carácter de urgencia y…</p>
+<p>Juan resopló una sonrisa y terminó la frase ─era usted quien forzaba la tapa del buzón; la perdono porque fue por una buena causa y porque está siendo honesta ahora─.</p>
+<p>Había notado que revisaban sus cartas pero creyó que eran las autoridades militares, en el fondo se sentía aliviado de que era Ana quien lo espiaba.</p>
+<p>Algo que había ayudado a Ana en su oficio era el ser entrometida, si es que la situación lo ameritaba. Pero lo que siempre la había acompañado en su carrera, era su instinto; que en ese momento le gritaba que se tenía que quedar.</p>
+<p>Horas más tarde, Juan continuaba trabajando incansablemente, perdido en su investigación. Mientras, Ana escribía el primer borrador de su nota cuando repentinamente escuchó un ruido y sin sobresaltarse preguntó indiferente:</p>
+<p>─¿Hay alguien más acá?─</p>
+<p>Juan la miró extrañado y distraído.</p>
+<p>─Perdón, no quería interrumpirlo─ le respondió leyendo el gesto.</p>
+<p>─No, no hay nadie más en este momento, ¿por qué lo pregunta?─ preguntó Juan sin prestar mucha atención.</p>
+<p>─Por nada.</p>
+<p>Ana miró sobre su hombro tratando de revisar el lugar con disimulo, caminó en silencio con un gesto distraído haciendo que estiraba el cuerpo, pero observando todo con vista de halcón, su intuición le decía que algo andaba mal. Entonces lo notó, uno de los pobres haces de luz de las lámparas que alumbraban el lugar se reflejó sobre el cañón de un revólver Webley que asomaba entre las sombras, apuntado en dirección a Juan.</p>
+<p>El arma pertenecía a Roberto Inindulgente. Un tipo rudo; criado con valores simples, claros y sin bemoles. Hijo de militares aristócratas, seguía sin cuestionamientos al gobierno imperante. Hacía tres días se le había asignado la misión de asesinar a Juan Astrónomo. Toda la explicación que había recibido era que el científico había descubierto una amenaza mundial y, si lograba divulgarla, generaría un pánico global que sería peor que la propia catástrofe que anunciaba; además de atraer la atención internacional a Argentina en plena dictadura militar, pero eso no requería ser informado. De haberse hecho, le hubiera dado a Roberto una motivación extra.</p>
+<p>Desesperada pero con suma precisión, Ana lanzó su bolso, con los apliques de metal al frente, estimando la trayectoria hacia donde debería estar la cabeza del agresor misterioso. Una secuencia de sonidos estridentes se sucedió en escala: primero se escuchó la manija del bolso sobre el cráneo de Roberto, acompañado de un grito de dolor, seguido de un disparo desviado, un grito de pánico de Juan y un alarido de festejo de Ana.</p>
+<p>Para Roberto el rol de la mujer era muy claro, debía quedarse en casa, realizar sus quehaceres domésticos y estar fuera de los asuntos de los hombres. Fue por esto que encaró furioso a la rescatadora; no se dignó a usar el arma, un disparo seco no iba a enseñar la lección que quería imponer. Guardó el revólver en su espalda entre el cinturón y el cuerpo y preparó sus puños con ira y una sonrisa sádica. Pero gracias a la distracción misógina, Juan aprovechó la oportunidad y golpeó con todas sus fuerzas la nuca del atacante, usando la herramienta que mejor conocía: el telescopio de madera que le había regalado su abuelo. Roberto cayó inconsciente.</p>
+<p>Sin perder más tiempo, la aguerrida periodista tomó con la mano izquierda su anotador y con la derecha al astrónomo que llegó a agarrar su cuaderno antes de escapar a toda prisa del observatorio. Salieron en plena madrugada y atravesaron el Parque Centenario bajo las luces del alumbrado público.</p>
+<p>El parque es como un gran círculo verde en el medio del mapa. Corrieron por la avenida Díaz Vélez, siguiendo la tangente, hasta que sus pulmones no resistieron más. Se detuvieron a unos metros de la esquina de la calle Medrano, jadeando como perros y vigilando la retaguardia.</p>
+<p>Habiendo recuperado el aliento, Ana recordó el subte A. La estación Castro Barros estaba a unas pocas cuadras. Esa podía ser una vía de escape segura y rápida, el único problema era que todavía no abría sus puertas, ya que seguía siendo de madrugada. Corrieron igual por Medrano en busca de nuevas ideas, llegaron finalmente a la esquina que buscaban y doblaron por Rivadavia. Tal como esperaban, estaba cerrada.</p>
+<p>Pese al peligro inminente que parecía acecharlos, la cara de Juan no reflejaba preocupación por ser perseguido sino que se veía perdido en sus cavilaciones astronómicas.</p>
+<p>─¿Qué hacemos ahora?─ preguntó Ana.</p>
+<p>─Ver por qué Venus está comportándose tan extraño.</p>
+<p>Ana se enfureció. Amenazados de muerte por un maniático desconocido y él perdido en las estrellas, fue el límite de su paciencia. Se acercó con ímpetu para despabilar a su entrevistado. Juan la tomó por la cintura antes de que pudiera hablar siquiera. Sus ojos, solo separados por sus narices, se miraron tan enojados como apasionados.</p>
+<p>─Agradezco su osadía, me ha salvado usted la vida y estaré eternamente en deuda. Pero este altercado no corre por su cuenta y debe usted alejarse antes de que termine lastimada. Por mi parte necesito resolver qué está pasando con los planetas.</p>
+<p>─No voy a ningún lado, me quedo a donde esta historia va─ contestó Ana sin resistirse al agarre de Juan.</p>
+<p>Sesenta años antes, detrás de donde ellos estaban, se había inaugurado la confitería “Las Violetas” <span class="citation" data-cites="eswiki:171933129">[@eswiki:171933129]</span> que hacía tan sólo unos minutos atrás había empezado a servir café. Juan pensó rápido. Dejó ir la cintura de Ana, tomó su mano con determinación y caminó acelerado, vigilando en todas direcciones y llevándola hacia la puerta de la confitería. El astrónomo se dio cuenta que era un lugar público donde había movimiento desde temprano y varias personas como potenciales testigos. No había un plan más seguro que ese: esperar en la confitería hasta que el subte abriera y así poder alejarse y ganar tiempo.</p>
+<p>Se acomodaron en una mesa de madera cuadrada con dos sillas opuestas. La confitería tenía una gran barra que se orientaba hacia enormes ventanales que miraban a la calle; en lo alto el techo, con sus bellas lámparas y refinadas terminaciones, era sostenido por majestuosas columnas. Un lugar a la par de los mejores cafés de Europa.</p>
+<p>Juan realizó dos rápidas señas: primero formó una “V” con los dedos índice y mayor, luego con el índice nuevamente y el pulgar representó la “C” como sosteniendo una pequeña taza entre los dedos. De esta forma indicó al mozo que le sirviera un par de cortados. Luego pidió a Ana silencio con el índice extendido sobre sus labios, necesitaba analizar sus anotaciones. Antes de iniciar le indicó que se mantuviera vigilante mientras él interpretaba sus notas. Durante unos veinte minutos la periodista mantuvo la calma, pero llegó un punto donde no pudo contenerse más.</p>
+<p>─¿Qué está pasando? ¿Por qué está revisando tanto sus notas? ¿Quién era esa persona que intentó dispararle?</p>
+<p>Juan tomó aire, entendió que estaba asustada y contestó con calma:</p>
+<p>─Lo que vi anoche es que Venus está volviendo a su lugar, pero no tuve tiempo de registrar y hacer los cálculos y observaciones necesarias para saber qué podría ocurrir. En cuanto al agresor, verdaderamente desconozco quién es y sus motivos, yo debería estar pensando en cruzar el charco para zafar ─le salió finalmente su bronca en claro lunfardo─ pero me preocupa más qué está pasando en nuestro sistema solar y si hay alguna novedad en cuanto al destino de nuestro planeta.</p>
+<p>─¿Y cómo va a completar sus notas sin un telescopio?</p>
+<p>Juan se apretó el entrecejo con el dedo índice y el mayor, como si eso le ayudase a pensar mejor. Respiró profundo, resopló por la boca como si estuviera rindiéndose y entonces elevó su cabeza. Sus ojos brillaron, relajó el ceño y exclamó:</p>
+<p>─El San José, el padre Taillefer tiene un telescopio. ¡Vamos rápido!</p>
+<p>─¡De qué está hablando!, basta de sin sentidos, explíqueme qué pasa. No vamos a ninguna parte hasta que no me diga qué carajo pensó─ dijo Ana olvidando todos los modales.</p>
+<p>─A unas estaciones de subte está el Colegio San José. El padre Taillefer, encargado del lugar, me había pedido ayuda para hacer unos ajustes en el observatorio <span class="citation" data-cites="sanjose_historia">[@sanjose_historia]</span>. Podemos ir ahí para terminar mis observaciones. Déjeme revisar mis notas hasta que abra el subte y nos vamos derechito para allá. Ana asintió con la cabeza y volvió a su mirada vigilante.</p>
+<p>Se tomaron cada uno el café en silencio. Juan mirando fijo sus notas, Ana tomando apuntes para la noticia en su anotador. Habían pasado tantas cosas en las últimas horas que por un momento no supo quién era, qué hacía, porqué estaba ahí. Recién en ese momento se dio cuenta de que había olvidado su bolso en el observatorio.</p>
+<p>El sol salió completamente, se sentía su calor a través de la ventana del Café. Cada uno resguardó sus notas mirando alrededor en busca de alguna figura sospechosa. Nada les llamó la atención, así que se levantaron disimulando estar tranquilos y se fueron para la estación.</p>
+<p>Roberto despertó del desmayo, le dolía la cabeza y al tocarse le quedó un poco de sangre en los dedos. Se limpió con su pañuelo, que guardaba prolijamente doblado en el bolsillo posterior de su pantalón y fue tras la víctima que tenía encomendada. Al salir del observatorio el sol estaba brillando. Roberto era un experto rastreador y con toda calma retomó la cacería. Observó la situación, su entrenamiento era vasto y podía deducir con gran precisión que decisiones podían llegar a tomar las presas que perseguía. Pero comenzó por la evidencia más obvia: el bolso que la atrevida había lanzado.</p>
+<p>Ana y Juan esperaban ansiosos la llegada del subterráneo en el andén. Sin pensarlo se tomaron de las manos. Se preguntaban si hubiera sido mejor ir caminando, se preguntaban por qué alguien podía querer matar a Juan y cada uno a su manera se preguntaba porqué el sistema solar se había vuelto loco. Perdidos en pensamientos diversos, el tiempo pasó desapercibido y el ruido rechinante de los frenos del subte y su olor característico los trajo de nuevo al presente. Las puertas se abrieron y entraron rápidamente mirando en todas direcciones, lo cierto es que con el susto y con la prisa nunca habían visto al agresor, así que podía ser cualquiera. Las Brujas, como llamaban a los vagones construidos en la ciudad Belga del mismo nombre <span class="citation" data-cites="eswiki:175912157">[@eswiki:175912157]</span>, comenzaron su recorrido que, si bien corto, a Ana y a Juan les pareció una eternidad. No se soltaron de las manos ni por un segundo.</p>
+<p>Llegaron a la estación Loria y miraron furtivamente a cada persona que entraba a su vagón. Siguieron hasta Plaza Miserere con el mismo miedo y finalmente bajaron en Alberti, queriendo volver a la superficie donde se sentían menos sofocados y con más posibilidades de escapatoria.</p>
+<p>Caminaron una cuadra, en dirección al norte, por la calle Larrea, y a su derecha, imponente, se erigía el colegio San José. Su muralla en la intersección con la calle Bartolomé Mitre cortaba en una ochava de tres pisos y continuando el muro por esta última calle, enormes ventanales se veían separados por macizas columnas. Se dirigieron a la puerta principal donde Juan golpeó ansioso. Un joven monaguillo abrió la puerta, tenía aspecto preocupado, seguramente por la ansiedad del llamado de Juan, pero no había tiempo para disculpas. ─¿Dónde está el padre Taillefer?─ preguntó Juan con prisa: ─es una emergencia─. El confundido monaguillo los guió hasta la oficina del padre, que por suerte desde muy temprano ya estaba trabajando.</p>
+<p>Con educación, Juan comenzó por presentar a su acompañante y durante unos veinte minutos explicó la situación al padre mientras Ana aguardaba sentada a su lado. Taillefer escuchó con paciencia y atención. Se mostró empático en todo sentido y desde el profundo respeto científico que tenía por aquel astrónomo, les dio permiso para utilizar las instalaciones e inclusive refugiarse del agresor misterioso.</p>
+<p>Ana y Juan subieron rápidamente a la torre del observatorio, Juan miraba los escalones y sus notas alternadamente mientras Ana lo agarraba del brazo cuando se estaba por tropezar. Extrañamente tenían una dinámica juntos tan fluida que parecía que se conocieran de otra vida.</p>
+<p>Una vez que estuvo cómodo, el astrónomo quedó absorto en su trabajo haciendo y repitiendo sus cálculos. Ana decidió avanzar en el borrador de su artículo. Sin embargo, le resultaba muy difícil concentrarse porque Juan no paraba de murmurar. Superada finalmente por la situación le preguntó irritada:</p>
+<p>─¿Qué es lo que pasa?─. Juan carraspeó preocupado y respondió con un tono dudoso, por no tener acceso a las observaciones a través de un telescopio ─Mis estimaciones predicen que Venus estaría volviendo a su órbita original hacia la noche, pareciera como que todo retorna a la normalidad pero hasta que no llegue el atardecer de nuevo no voy a poder confirmar mis cálculos.</p>
+<p>Ana quedó boquiabierta, “todo esto para nada” pensó. No sabía si alegrarse porque no iba a destruirse la Tierra o entristecerse porque no iba a poder publicar una historia maravillosa. Pensó un momento, no podía creerlo, se planteó que algo debía estar mal y preguntó ofuscada:</p>
+<p>─¿Está seguro? ¿Cómo puede ser?─ Juan levantó los hombros en un gesto de desconocimiento, ─así de simple es lo último que observé en la Asociación Amigos de la Astronomía, no puedo encontrar una explicación todavía─ respondió, rendido ante su ignorancia.</p>
+<p>Ana pensó un momento, necesitaba reorganizarse.</p>
+<p>─Mire, no vivo lejos de acá─ le dijo Ana escribiendo su dirección con un lápiz en un papel viejo que tomó de una de las mesas del observatorio─ Voy a casa a acomodarme las ideas porque ahora no sé qué escribir. Cuando haya terminado con sus observaciones y cálculos por favor páseme a buscar y terminamos esta historia─ ordenó Ana.</p>
+<p>─Pero el asesino anda suelto por ahí, es muy peligroso─ inquirió Juan.</p>
+<p>Ana respondió confiada y envalentonada:</p>
+<p>─Sé cuidarme muy bien, si no fuera por mí, usted estaría muerto. Me quedo tranquila de que está seguro acá en el colegio─ terminó su frase golpeando con el lápiz la mesa a través del papel para poner un punto final y así darle énfasis a su afirmación antes de irse.</p>
+<p>Una vez en su casa, Ana sintió un gélido escalofrío pasando por su espalda. “¿Y si Juan no la pasa a buscar porque el asesino ese lo había encontrado?” pensó la periodista aterrada. “Nunca debí haberlo dejado”; se repetía una y otra vez. Pero al recordar la mirada del astrónomo le volvió la paz al cuerpo.</p>
+<p>Pocos tenían la experiencia de Juan. Había aprendido astronomía con su papá, como oficio antes que como catedrático. Confiaba en sus observaciones sin lugar a duda, lo que no quitaba que investigara profesionalmente hasta que sus interpretaciones tuvieran sentido. Por eso quedó anonadado cuando se encontró al atardecer con que Venus volvía a alejarse de la órbita. Se dejó caer sobre una vieja silla de madera.</p>
+<p>El padre Taillefer había pedido dejar en el observatorio una jarra con agua y un par de vasos para los refugiados. Juan tomó un poco y se mojó la cara echándose unas gotas con los dedos, como si eso fuera a despertarlo; tal vez, toda esta locura era sólo un sueño, al final de cuentas hacia 48 hs que no dormía. Decidió descansar un poco. Bajó de la torre y pidió al monaguillo si podían ofrecerle algún lugar donde recostarse. Juan se sentía afiebrado pero eran sólo los nervios de estar desconcertado; en parte por lo bizarro de la situación astronómica y en parte porque no podía sacarse el olor a gardenia y la mirada implacable de Ana de la cabeza.</p>
+<p>Despertó de su siesta en el sillón de la sala de maestros, desorientado. Era de madrugada. Poco a poco fue recordando todos los hechos: el agresor, sus cálculos incompletos, la pérdida del telescopio de su abuelo y el hecho de que sus últimas observaciones en la torre las había hecho sin este, sin su cábala. De entre toda esa confusión Ana apareció en su mente, como un maravilloso amanecer después de una larga noche. Este último recuerdo lo animó a levantarse. Pasó por el baño y se lavó la cara esperando que esto lo despabile, se miró a los ojos en el espejo y pensó en voz alta:</p>
+<p>─Sé que los cálculos están bien, desde un primer momento el hecho de que un planeta cambie su órbita ya no tiene sentido así que el que retorne a ésta tampoco agrega mucho. ¿Qué pasa entonces?─ una idea apareció de la nada, que si bien absurda era lo más cuerdo en toda esta locura. Volvió desesperado al observatorio del colegio, tomó su cuaderno de notas y se fue corriendo, agradeció al padre Taillefer y salió a la calle en plena madrugada.</p>
+<p>Cuando llegó a su casa Ana se dio un baño para despejarse, dejando que las ideas cayeran solas, pero sólo podía pensar en una cosa o más bien en una persona: Juan. Al bajar el sol prendió una vela para iluminarse, en todo sentido. Recapituló la historia en su memoria y la pasó al papel. Para cuando terminó, había tirado a la basura varios borradores. Estaba envuelta en su bata y con una toalla a modo de turbante en la cabeza. Se sentía frustrada, pero no por no tener el final de la historia para su nota sino porque, a pesar de que ella creía que el astrónomo era un pedante, sentía algo por él, y no lo admitía.</p>
+<p>Ana había tomado el oficio del periodismo de su abuelo, desde chica escribía todo lo que veía en un cuaderno que su querido mentor le había regalado al empezar la escuela primaria. Al principio fueron dibujos con unas pocas letras; luego, con el pasar de los años se fueron haciendo notas más y más elaboradas. En ese cuaderno fue creciendo su pasión y dedicación al periodismo. Sus padres no aprobaban esta profesión, pero su abuelo siempre estaba ahí para escuchar, corregir y hasta publicar los artículos que Ana escribía. Su motivación no sólo era por el amor a la profesión sino también tener la excusa de sentarse junto a su guía a leer historias. En quinto grado se había subido a lo más alto del árbol de moras del patio para alcanzar la ventana de la sala de profesores de la escuela y desenmascarar a la directora que se robaba plata de las carteras de las maestras. En la escuela secundaria, su curiosidad y determinación le construyeron una mala fama. Había estudiado en la Escuela Superior de Periodismo de La Plata, que desde 1934 impartía clases en pos de la defensa de la libertad de expresión <span class="citation" data-cites="unlp">[@unlp]</span>. Era de las pocas mujeres que asistía a la universidad por esos tiempos y lo hizo a costa de dedicarse ciento por ciento a eso, su pasión. Constantemente era incomprendida por los demás, pero cada artículo llegaba a los lectores que tenían que llegar. Esta era la primera vez que no tenía una noticia clara y culpaba de esto a Juan para no hacerse cargo de su propia frustración.</p>
+<p>Ana vivía en la casa de su familia, pero en una dependencia con una entrada separada que oficiaba de un pequeño departamento. La relación con sus padres nunca había sido amena y tener esa privacidad y autonomía era lo más conveniente para todos. Este pequeño departamento era apenas un ambiente con la cama al pie de la única ventana; una salamandra que la abrigaba y donde cocinaba; una cortina que separaba del resto de la habitación la bañadera, el inodoro, una mesa con una palangana y la jarra para el agua. Opuesta a la ventana estaba la puerta, que alguien golpeó tres veces con fuerza. Ana quiso suponer que era Juan, pero inmediatamente se acordó que había perdido su bolso al usarlo como arma y que al hacerlo dejó una pista al agresor ─¿sería él que la buscaba para llegar a Juan?. El retumbar del tercer golpe se continuó con la voz de Juan avisando de su llegada. Ana respiró aliviada. No le importó que llegara en medio de la madrugada, quiso correr a abrir pero su vanidad la detuvo. Se dio unos instantes para sacarse el toallon de la cabeza y acomodar el pelo mojado con los dedos.</p>
+<p>─Ya voy─ dijo para ganar un momento más, respirar profundo y aceptar que su instinto no había fallado y que sabía que él había estado siempre en camino y nada malo le había pasado.</p>
+<p>Abrió lo más despacio que pudo y sus miradas se encontraron. El notó la bata al ver su hombro y bajó la mirada en un gesto de respeto a la intimidad de aquella dama ─puedo esperar a que se vista─ dijo nervioso. ─Un momento nomás─ le respondió agradecida y cerró la puerta. Al verse ambos habían aceptado sus sentimientos sin dejar espacio a las preocupaciones que los acechaban. Ana se vistió rápidamente con un vestido sencillo de verano que le había regalado el difunto abuelo. Cuando abrió la puerta nuevamente sólo se miraron y como dos polos opuestos se atrajeron violentamente el uno al otro en un apasionado beso. Su unión amalgamaba el amor más puro y misterioso, capaz de mover planetas. Si no eran ellos los que canalizaban esa atracción entonces sería el radiante cuerpo planetario el encargado de hacerlo. Ambos sabían que en esa unión, todo volvía a su lugar y no había nada de qué preocuparse.</p>
+<p>Tras el beso Ana preguntó ─¿Y el fin de nuestro mundo?─ Juan le contestó ─Mi mundo es usted.</p>
+<p>Poco a poco en todo el globo los astrónomos que habían sido avisados empezaron a quedar anonadados ante la sorpresa de que el brillante planeta estaba volviendo a su lugar, sin poder dar explicación de por qué se había salido de su órbita ni de por qué estaba volviendo a la misma. Estas noticias no tardaron en llegar tampoco a las altas esferas de la milicia dictante, de donde inmediatamente se ordenó avisar al brigadier Inindulgente para que detuviera su misión con un simple llamado.</p>
+<p>Roberto era un hombre leal pero aún más era orgulloso. El odio que había acumulado contra aquella periodista entrometida lo llevó a cambiar, en lugar de anular, la orden de no asesinar. Obedecería en principio, la orden de no matar a Juan, pero nadie le había dicho que no matara a Ana.</p>
+<p>Su primer instinto fue ir a la casa de aquella maldita. Tenía la dirección gracias a el documento de identidad que había encontrado dentro del bolso de Ana. y se dirigió a su destino sin titubear. Tenía el arma preparada y esta vez no fallaría, se aseguraría su victoria matándola.</p>
+<p>El deseo mutuo de Juan y Ana los hizo olvidarse de sus preocupaciones. La falta de lógica en los cálculos astronómicos se transformó en caricias espaciales, la falta de inspiración para escribir la nota se tornó respiración acelerada y finalmente el anhelo de ser idolatrados por sus respectivos mentores se convirtió en alegría al darse cuenta de que hubieran estado felices por saber que encontraron el amor romántico.</p>
+<p>La pasión que despertó la unión de Ana y Juan resonó también en el resto del sistema solar. Era tal el balance que requería el universo de su unión, que su separación había cambiado la órbita de Venus. Pero no como castigo sino como llamado a que sus espíritus se encontraran y se unieran. Aún más extraño fue lo poco que incidió todo el movimiento planetario, ya que la única evidencia de esto eran las observaciones en el telescopio pero ningún otro acontecimiento se derivó como consecuencia del cambio de órbita. Los profesionales no podían encontrar explicación a tales fenómenos pero cada evidencia confirmaba los desplazamientos del planeta. Sólo un pequeño evento tuvo una consecuencia mortal. Una suave brisa estelar llegó apenas a empujar una maceta que Doña Ramona había dejado descuidadamente mal apoyada en el borde de su balcón, con suerte tal que cayó en la dura cabeza de un desafortunado transeúnte. Esta persona murió instantáneamente, sus deseos, sus anhelos, sus miedos y sus pecados se fueron en un momento, como una melodia que se diluia en el silencio. Tan sólo unos segundos y ya nada existía, ni siquiera la sed de venganza por su víctima, aquella maldita que había evitado que concretara su misión. Sólo encontraron junto a él, un bolso de cuero con apliques de metal entre sus manos, que no fue suficiente para identificarlo. Por su parte, los espíritus individuales de Juan y Ana en su apasionado encuentro dejaron de ser dos para fusionarse en uno: JuAna.</p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/sergio-sclovich\.github\.io\/AnAntologia_HTML\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

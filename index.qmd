@@ -2,78 +2,67 @@
 format:
   html:
     theme:
-      - Ebook.scss
+      - webstyle.scss
 ---
 
-::: derecha
 
-```         
-Dedicado a las historias de amor,
-esperanzas de la humanidad
-que desesperadamente,
-busca ser amada.
+Les damos la bienvenida a la Espiral Temporal, un proyecto colectivo basado en la obra escrita por Sergio Sclovich.
 
-─Sergio Sclovich─
+Nuestro ícono es una espiral, que simboliza la interconexión que existe entre las personas entre sí y con el resto de la naturaleza. Reivindicamos la historia del amor a partir de una antología de relatos que se unen en una madeja espiralada, hecha de un hilo conductor.
+
+Buscamos compartir historias, reflexiones y nuevas formas de entender e interpretar las relaciones. Las y los invitamos a ser parte de este viaje artístico leyendo, mirando, escuchando y comentando lo que deseen sobre el proyecto.
+
+```{=html}
+<div class="image-wrapper">
+  <img src="images/Full_espiral.png" alt="Main Background" class="main-image">
+  
+  <a href="AnAntologia_Sinopsis.qmd" class="overlay-link overlay-1">
+    <img src="images/AnaGramarg.png" alt="Anantologia" class="overlay-image">
+  </a>
+  
+  <a href="AnAntologia_Sinopsis.qmd" class="overlay-link overlay-2">
+    <img src="images/DanzAna.png" alt="Anatologia" class="overlay-image">
+  </a>
+
+  <a href="AnAntologia_Sinopsis.qmd" class="overlay-link overlay-3">
+    <img src="images/JuAna.png" alt="Anantologia`" class="overlay-image">
+  </a>
+  
+  <a href="AnAntologia_Sinopsis.qmd" class="overlay-link overlay-4">
+    <img src="images/AnaCronica.png" alt="Anantologia`" class="overlay-image">
+  </a>
+  
+  <a href="AnAntologia_Sinopsis.qmd" class="overlay-link overlay-5">
+    <img src="images/DiAna.png" alt="Anantologia`" class="overlay-image">
+  </a>
+  
+  <a href="El_sitial_sinopsis.qmd" class="overlay-link overlay-6">
+    <img src="images/ElSitial.png" alt="Anantologia`" class="overlay-image">
+  </a>
+  
+  <a href="LOBA_sinopsis.qmd" class="overlay-link overlay-7">
+    <img src="images/LOBA.png" alt="Anantologia`" class="overlay-image">
+  </a>
+  
+   <a href="Sofista_sinopsis.qmd" class="overlay-link overlay-8">
+    <img src="images/Sofista.png" alt="Anantologia`" class="overlay-image">
+  </a>
+  
+   <a href="AnaLogico_sinopsis.qmd" class="overlay-link overlay-9">
+    <img src="images/AnaLogico.png" alt="Anantologia`" class="overlay-image">
+  </a>
+  
+    <a href="Auris_sinopsis.qmd" class="overlay-link overlay-10">
+    <img src="images/Auris.png" alt="Anantologia`" class="overlay-image">
+  </a>
+  
+    <a href="ReEvolucion_sinopsis.qmd" class="overlay-link overlay-11">
+    <img src="images/ReEvolucion.png" alt="Anantologia`" class="overlay-image">
+  </a>
+  
+    <a href="DisUtopia_sinopsis.qmd" class="overlay-link overlay-12">
+    <img src="images/DisUtopia.png" alt="Anantologia`" class="overlay-image">
+  </a>
+  
+</div>
 ```
-:::
-
-
-## Prólogo del autor {.unnumbered}
-
-Esta obra comenzó el día en que me puse a escribir un cuento de amor como regalo de aniversario para mi esposa. Sin embargo, no tardó en convertirse en un proyecto más grande que me llevó a formularme muchas preguntas ¿Qué es este sentimiento y cómo lo defino?, ¿qué tipo de obra estoy construyendo alrededor de esta noción?, ¿cuál es el inicio y cuál es el fin de la experiencia amorosa?, ¿con quiénes voy a compartirla? A partir de allí, me di cuenta de que todo lo que estaba haciendo giraba en torno a una idea del amor que quiero interpretar, describir, armar y rearmar para compartir con toda persona que se identifique con esa búsqueda. Deseo que quienes lean estas palabras se sientan inspiradas e inspirados a cuestionarse y a revisitar sus propias concepciones sobre el amor en todas sus formas. Si bien creo que el amor es un total misterio, considero que podemos, como humanidad, plantearnos la posibilidad de que sea el amor el sentimiento que guíe cada uno de nuestros actos. Sostengo además que, reformular la forma de relacionarnos entre nosotras y nosotros, con la Tierra y con los demás seres vivos, nos va a permitir construir vínculos basados en el respeto y ponernos en camino hacia una vida más armoniosa.
-
-## Licencia {.unnumbered}
-
-Este libro se encuentra bajo la licencia:
-
-Atribución/Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional [Link](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es)
-
-![](./imagenes/Licencia.png)
-
-En resumen indica:
-
--- **Atribución**: Usted debe dar crédito de manera adecuada , brindar un enlace a la licencia, e indicar si se han realizado cambios . Puede hacerlo en cualquier forma razonable, pero no de forma tal que sugiera que usted o su uso tienen el apoyo de la licenciante.
-
--- **NoComercial**: Usted no puede hacer uso del material con propósitos comerciales.
-
--- **CompartirIgual**: Si remezcla, transforma o crea a partir del material, debe distribuir su contribución bajo la la misma licencia del original.
-
--- **No hay restricciones adicionales**: No puede aplicar términos legales ni medidas tecnológicas que restrinjan legalmente a otras a hacer cualquier uso permitido por la licencia.
-
-## Declaración de uso de Inteligencia Artificial
-
-Ni la escritura de este libro ni su edición se realizaron con inteligencia artificial (IA). Si bien se publica por primera vez en 2026, ambos procesos comenzaron más de una década atrás, cuando este tipo de herramientas (como la IA generativa de acceso público) aún no existían. Sin embargo, las historias que integran la obra vislumbran un futuro distópico donde la tecnología robótica y la inteligencia artificial avanzada juegan un rol profundamente arraigado en la condición humana.
-
-## Acerca de cómo leer este libro:
-
-La creación de estos cuentos no solo estuvo impulsada por la imaginación, sino también por la investigación bibliográfica. A lo largo del texto las fuentes de este trabajo se indican mediante números en superíndice que remiten a las referencias correspondientes. Para profundizar en cualquiera de los temas abordados, basta con seguir la numeración.
-
-A medida que la IA evoluciona, la línea entre la realidad y la ficción puede volverse cada vez más difusa. La combinación de narrativa de ficción con un respaldo en el conocimiento científico nos permite desplegar la imaginación manteniendo un ancla en el mundo real, para así navegar nuestros universos interiores sin perder el rumbo.
-
-## Sobre el proyecto
-
-Inter.Tempo es una saga de historias interrelacionadas por una figura espiral. Este libro representa el centro de la espiral y el comienzo de esta aventura. Aventura no solo de los personajes sino del lector que los acompaña. Cada Cuento da origen a historias distintas, que a lo largo de la expansión espiralada de toda la saga se irán conectando.
-
-Si querés conocer más sobre la saga podés ir a este [Link]()
-
-## Sobre los creadores
-
-Somos una cooperativa que desarrolla proyectos editoriales. Buscamos que las lecturas sean especiales, profundas y reflexivas, involucrando todos los sentidos posibles. Para ello usamos tecnologías audiovisuales, sin perder de vista la esencia de un buen libro. Cada una de nuestras habilidades enriquecen y hacen únicas las historias que contamos.
-
-Entendemos que, conforme el recorrido de nuestra especie avanza, la cultura, la tecnología y las artes entre otros aspectos, van cambiando. Nuestra cooperativa se suma a los cambios y al mismo tiempo busca reivindicar la literatura más pura, incluso en este mundo digital. Sabemos que la práctica de narrar historias es propia de la humanidad y que, por lo tanto, nos acompañará siempre.
-
-## Apoyo al proyecto
-
-Este libro es el primero de una saga de ocho.
-
-El material que acá se comparte lo realizamos voluntariamente. Tu apoyo es indispensable para que podamos concretar el proyecto de publicar las ocho obras en todas sus formas.
-
-Podés apoyar el proyecto de varias maneras:
-
-- **Difundiendo**: cuando la compartís esta obra, estás democratizando el acceso a la literatura y fortaleciendo un modelo cultural basado en la colaboración y el intercambio libre de conocimiento. Te invitamos a ser parte de esta movida de difusión cultural.
-
-- [![](https://cdn.cafecito.app/imgs/buttons/button_4.svg)](https://cafecito.app/intertemposaga)
-
-
-- Comprando el ebook [**link**]()
-

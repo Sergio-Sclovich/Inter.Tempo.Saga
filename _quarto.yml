@@ -2,36 +2,37 @@ project:
   type: website
   output-dir: docs
 
-bibliography: referencias.bib
-csl: nature.csl
-
 website:
   site-url: https://sergio-sclovich.github.io/AnAntologia_HTML/
-  title: "AnAntologia"
-  #author: "Sergio Sclovich"
+  title: "Inter.Tempo"
   navbar:
-    logo: imagenes/Logo_espiral.png
+    search: true
+    logo: Images/Logo_espiral.png
     left:
-      - href: index.qmd
-        text: Prefacio
-      - capitulos/01-AnaGramarg.qmd
-      - capitulos/02-DanzAna.qmd
-      - capitulos/03-JuAna.qmd
-      - capitulos/04-AnaCronica.qmd
-      - capitulos/05-DiAna.qmd
-
+      - text: "Información del proyecto"
+        menu:
+          - SobreProyecto.qmd
+          - QuienesSomos.qmd
+          - DerechosAutor.qmd
+          - ComoLeer.qmd
+          - apoyo.qmd
+      - text: "Libros"
+        menu:
+          - AnAntologia.qmd
+          - sinopsis/El_sitial_sinopsis.qmd
+          - sinopsis/LOBA_sinopsis.qmd
+          - sinopsis/Sofista_sinopsis.qmd
+          - sinopsis/AnaLogico_sinopsis.qmd
+          - sinopsis/Auris_sinopsis.qmd
+          - sinopsis/ReEvolucion_sinopsis.qmd
+          - sinopsis/DisUtopia_sinopsis.qmd
 
 
 format:
   html:
+    theme:
+      webstyle.scss
     toc: true
-    lang: es
-    number-sections: false
-    #theme: solar
-    citation-hover: true
-    theme: 
-      - Ebook.scss
-
 
 
 
