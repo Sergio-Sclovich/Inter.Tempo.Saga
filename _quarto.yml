@@ -31,7 +31,8 @@ website:
 format:
   html:
     theme:
-      webstyle.scss
+      #webstyle.scss
+      style.scss
     toc: true
 
 

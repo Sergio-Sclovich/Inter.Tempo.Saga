@@ -1,0 +1,152 @@
+/*-- scss:rules --*/
+
+.derecha {
+  text-align: right !important;
+}
+
+.centrado {
+  text-align: center !important;
+  max-width: 80%;
+  //margin: 0 auto;
+  display: inline-block;
+  white-space: normal;
+}
+
+.separador {
+    text-align: right;
+    font-size: 1.2em;
+    margin: 1em 0;
+}
+
+p {
+  text-align: justify;
+  hyphens: auto;
+  -epub-hyphens: auto;
+  text-indent: 1.5em;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+// french indent details
+h1 + p, h2 + p, h3 + p {
+  text-indent: 0;
+}
+
+.no-indent p {
+  text-indent: 0 !important;
+}
+
+.yes-margin p {
+  margin-top: 0.8em !important;
+  margin-bottom: 0.8em !important;
+}
+
+.img-igual {
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+}
+
+
+//______________
+
+
+// solarpunk color palette
+
+/* SCSS HEX */
+$olive-leaf: #5d6533ff;
+$forest-moss: #697a33ff;
+$golden-sand: #b6b65eff;
+$tuscan-sun: #efc668ff;
+$sand: #b29c63ff;
+$dark-walnut: #5c311eff;
+$rusty-spice: #b84c1dff;
+$chocolate: #cd672eff;
+$cloudy-sky: #588fd0ff;
+$baltic-blue: #386290ff;
+
+/* SCSS HSL */
+$olive-leaf: hsla(70, 33%, 30%, 1);
+$forest-moss: hsla(74, 41%, 34%, 1);
+$golden-sand: hsla(60, 38%, 54%, 1);
+$tuscan-sun: hsla(42, 81%, 67%, 1);
+$sand: hsla(43, 34%, 54%, 1);
+$dark-walnut: hsla(18, 51%, 24%, 1);
+$rusty-spice: hsla(18, 73%, 42%, 1);
+$chocolate: hsla(22, 63%, 49%, 1);
+$cloudy-sky: hsla(213, 56%, 58%, 1);
+$baltic-blue: hsla(211, 44%, 39%, 1);
+
+/* SCSS RGB */
+$olive-leaf: rgba(93, 101, 51, 1);
+$forest-moss: rgba(105, 122, 51, 1);
+$golden-sand: rgba(182, 182, 94, 1);
+$tuscan-sun: rgba(239, 198, 104, 1);
+$sand: rgba(178, 156, 99, 1);
+$dark-walnut: rgba(92, 49, 30, 1);
+$rusty-spice: rgba(184, 76, 29, 1);
+$chocolate: rgba(205, 103, 46, 1);
+$cloudy-sky: rgba(88, 143, 208, 1);
+$baltic-blue: rgba(56, 98, 144, 1);
+
+
+.image-wrapper {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 800px;   // igual que .main-image
+  margin: 20px auto;
+}
+
+.main-image {
+  display: block;     // evita un pequeño hueco debajo de la imagen
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.overlay-link {
+    position: absolute;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    overflow: hidden;
+    /*box-shadow: 0 2px 8px rgba(0,0,0,0.2);*/
+}
+
+.overlay-link:hover {
+    transform: scale(1.05);
+    /*box-shadow: 0 4px 16px rgba(0,0,0,0.3);8*/
+    z-index: 10;
+}
+
+.overlay-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.overlay-1  { top: 46%;   left: 41%;   width: 15%;    aspect-ratio: 120 / 150; }
+.overlay-2  { top: 50%;   left: 29%;   width: 15%;    aspect-ratio: 120 / 155; }
+
+.overlay-3  { top: 30%;   left: 26.5%; width: 20%;    aspect-ratio: 160 / 170;
+              transform: scale(0.65); }
+.overlay-3:hover { transform: scale(0.70); }
+
+.overlay-4  { top: 33%;   left: 48%;   width: 20%;    aspect-ratio: 160 / 150; }
+.overlay-5  { top: 60%;   left: 50%;   width: 18.75%; aspect-ratio: 150 / 160; }
+
+.overlay-6  { z-index: 20; top: 55%; left: 15%; width: 25%; aspect-ratio: 200 / 220;
+              transform: scale(0.60); }
+.overlay-6:hover { transform: scale(0.70); }
+
+.overlay-7  { top: 21%;   left: 19%;   width: 18.75%; aspect-ratio: 150 / 170; }
+.overlay-8  { top: 20%;   left: 56%;   width: 18.75%; aspect-ratio: 1 / 1; }
+.overlay-9  { top: 69%;   left: 55%;   width: 25%;    aspect-ratio: 200 / 170; }
+.overlay-10 { top: 60%;   left: 5%;    width: 31.25%; aspect-ratio: 250 / 280; }
+.overlay-11 { top: 10%;   left: 8%;    width: 25%;    aspect-ratio: 1 / 1; }
+.overlay-12 { top: 7%;    left: 63%;   width: 23.75%; aspect-ratio: 1 / 1; }
+
