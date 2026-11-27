@@ -21,7 +21,9 @@ busca ser amada.
 
 Esta obra comenzó el día en que me puse a escribir un cuento de amor como regalo de aniversario para mi esposa. Sin embargo, no tardó en convertirse en un proyecto más grande que me llevó a formularme muchas preguntas ¿Qué es este sentimiento y cómo lo defino?, ¿qué tipo de obra estoy construyendo alrededor de esta noción?, ¿cuál es el inicio y cuál es el fin de la experiencia amorosa?, ¿con quiénes voy a compartirla? A partir de allí, me di cuenta de que todo lo que estaba haciendo giraba en torno a una idea del amor que quiero interpretar, describir, armar y rearmar para compartir con toda persona que se identifique con esa búsqueda. Deseo que quienes lean estas palabras se sientan inspiradas e inspirados a cuestionarse y a revisitar sus propias concepciones sobre el amor en todas sus formas. Si bien creo que el amor es un total misterio, considero que podemos, como humanidad, plantearnos la posibilidad de que sea el amor el sentimiento que guíe cada uno de nuestros actos. Sostengo además que, reformular la forma de relacionarnos entre nosotras y nosotros, con la Tierra y con los demás seres vivos, nos va a permitir construir vínculos basados en el respeto y ponernos en camino hacia una vida más armoniosa.
 
-## AnaGramarg
+
+## AnaGramarg {#anagramarg}
+
 
 :::{.derecha}
 ```     
@@ -196,7 +198,7 @@ me acompaña todo el día con el recuerdo de sus besos.
 ```     
 :::
 
-## DanzAna
+## DanzAna {#danzana}
 
 :::{.centrado}
 
@@ -296,7 +298,7 @@ Danza, Ana danza.
 
 :::
 
-## JuAna
+## JuAna {#juana}
 
 :::{.derecha}
 ```     
@@ -581,7 +583,7 @@ El deseo mutuo de Juan y Ana los hizo olvidarse de sus preocupaciones. La falta 
 
 La pasión que despertó la unión de Ana y Juan resonó también en el resto del sistema solar. Era tal el balance que requería el universo de su unión, que su separación había cambiado la órbita de Venus. Pero no como castigo sino como llamado a que sus espíritus se encontraran y se unieran. Aún más extraño fue lo poco que incidió todo el movimiento planetario, ya que la única evidencia de esto eran las observaciones en el telescopio pero ningún otro acontecimiento se derivó como consecuencia del cambio de órbita. Los profesionales no podían encontrar explicación a tales fenómenos pero cada evidencia confirmaba los desplazamientos del planeta. Sólo un pequeño evento tuvo una consecuencia mortal. Una suave brisa estelar llegó apenas a empujar una maceta que Doña Ramona había dejado descuidadamente mal apoyada en el borde de su balcón, con suerte tal que cayó en la dura cabeza de un desafortunado transeúnte. Esta persona murió instantáneamente, sus deseos, sus anhelos, sus miedos y sus pecados se fueron en un momento, como una melodia que se diluia en el silencio. Tan sólo unos segundos y ya nada existía, ni siquiera la sed de venganza por su víctima, aquella maldita que había evitado que concretara su misión. Sólo encontraron junto a él, un bolso de cuero con apliques de metal entre sus manos, que no fue suficiente para identificarlo. Por su parte, los espíritus individuales de Juan y Ana en su apasionado encuentro dejaron de ser dos para fusionarse en uno: JuAna.
 
-## AnaCrónica
+## AnaCrónica {#anacronica}
 
 :::{.derecha}
 ```     
@@ -741,7 +743,7 @@ me acompaña todo el día con el recuerdo de sus besos.
 ```     
 :::
 
-## DiAna
+## DiAna {#diana}
 
 Juan Palindromemordnilap es un robot sencillo. Sus funciones son simples y claras: ser un albañil que construye y arregla todo tipo de estructura edilicia. Tiene una rutina ordenada; desconecta su cargador temprano en la mañana después de una noche de recarga, toma sus herramientas que deja previamente organizadas con prolijidad y recibe la orden de a dónde tiene que ir a construir o reparar algún edificio.
 
