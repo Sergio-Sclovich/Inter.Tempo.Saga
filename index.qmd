@@ -6,58 +6,58 @@ Les damos la bienvenida a la Espiral Temporal, un proyecto colectivo basado en l
 
 Nuestro ícono es una espiral, que simboliza la interconexión que existe entre las personas entre sí y con el resto de la naturaleza. Reivindicamos la historia del amor a partir de una antología de relatos que se unen en una madeja espiralada, hecha de un hilo conductor.
 
-Buscamos compartir historias, reflexiones y nuevas formas de entender e interpretar las relaciones. Las y los invitamos a ser parte de este viaje artístico leyendo, mirando, escuchando y comentando lo que deseen sobre el proyecto.
+Buscamos compartir historias, reflexiones y nuevas formas de entender e interpretar las relaciones. Las y los invitamos a ser parte de este viaje artístico leyendo, mirando, escuchando y comentando lo que deseen sobre el proyecto. Podes *clikear* en los títulos de la espiral para conocer más de cada obra.
 
 ```{=html}
 <div class="image-wrapper">
   <img src="Images/Full_espiral.png" alt="Main Background" class="main-image">
   
   <a href="sinopsis/AnAntologia_Sinopsis.qmd" class="overlay-link overlay-1">
-    <img src="Images/AnaGramarg.png" alt="Anantologia" class="overlay-image">
+    <img src="Images/AnaGramarg.png" alt="AnaGramarg" class="overlay-image">
   </a>
   
   <a href="sinopsis/AnAntologia_Sinopsis.qmd" class="overlay-link overlay-2">
-    <img src="Images/DanzAna.png" alt="Anatologia" class="overlay-image">
+    <img src="Images/DanzAna.png" alt="DanzAna" class="overlay-image">
   </a>
 
   <a href="sinopsis/AnAntologia_Sinopsis.qmd" class="overlay-link overlay-3">
-    <img src="Images/JuAna.png" alt="Anantologia`" class="overlay-image">
+    <img src="Images/JuAna.png" alt="JuAna" class="overlay-image">
   </a>
   
   <a href="sinopsis/AnAntologia_Sinopsis.qmd" class="overlay-link overlay-4">
-    <img src="Images/AnaCronica.png" alt="Anantologia`" class="overlay-image">
+    <img src="Images/AnaCronica.png" alt="AnaCronica" class="overlay-image">
   </a>
   
   <a href="sinopsis/AnAntologia_Sinopsis.qmd" class="overlay-link overlay-5">
-    <img src="Images/DiAna.png" alt="Anantologia`" class="overlay-image">
+    <img src="Images/DiAna.png" alt="DiAna" class="overlay-image">
   </a>
   
   <a href="sinopsis/El_sitial_sinopsis.qmd" class="overlay-link overlay-6">
-    <img src="Images/ElSitial.png" alt="Anantologia`" class="overlay-image">
+    <img src="Images/ElSitial.png" alt="ElSitial" class="overlay-image">
   </a>
   
   <a href="sinopsis/LOBA_sinopsis.qmd" class="overlay-link overlay-7">
-    <img src="Images/LOBA.png" alt="Anantologia`" class="overlay-image">
+    <img src="Images/LOBA.png" alt="LOBA" class="overlay-image">
   </a>
   
    <a href="sinopsis/Sofista_sinopsis.qmd" class="overlay-link overlay-8">
-    <img src="Images/Sofista.png" alt="Anantologia`" class="overlay-image">
+    <img src="Images/Sofista.png" alt="Sofista" class="overlay-image">
   </a>
   
    <a href="sinopsis/AnaLogico_sinopsis.qmd" class="overlay-link overlay-9">
-    <img src="Images/AnaLogico.png" alt="Anantologia`" class="overlay-image">
+    <img src="Images/AnaLogico.png" alt="AnaLogico" class="overlay-image">
   </a>
   
     <a href="sinopsis/Auris_sinopsis.qmd" class="overlay-link overlay-10">
-    <img src="Images/Auris.png" alt="Anantologia`" class="overlay-image">
+    <img src="Images/Auris.png" alt="Auris" class="overlay-image">
   </a>
   
     <a href="sinopsis/ReEvolucion_sinopsis.qmd" class="overlay-link overlay-11">
-    <img src="Images/ReEvolucion.png" alt="Anantologia`" class="overlay-image">
+    <img src="Images/ReEvolucion.png" alt="ReEvolucion" class="overlay-image">
   </a>
   
     <a href="sinopsis/DisUtopia_sinopsis.qmd" class="overlay-link overlay-12">
-    <img src="Images/DisUtopia.png" alt="Anantologia`" class="overlay-image">
+    <img src="Images/DisUtopia.png" alt="DisUtopia" class="overlay-image">
   </a>
   
 </div>
